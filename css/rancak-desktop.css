@@ -7,7 +7,7 @@
 
 
 header{height:90px; margin:var(--size-4) 0;}
-header .width-max{align-items:flex-end;}
+header .width-max{align-items:center;}
 .header-logo img{height:48px;}
 
 

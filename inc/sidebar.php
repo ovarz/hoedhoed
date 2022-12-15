@@ -23,19 +23,25 @@
     
     
     
-    <section aria-label="Isu Terkini" class="section-container topic-sidebar">
+    <section aria-label="Tren HoedHoed" class="section-container topic-sidebar">
       <div class="section-title">
-        <div class="section-title-name">Isu Terkini</div>
+        <div class="section-title-name">Tren HoedHoed</div>
       </div>
       <div class="topic-sidebar-container">
         <?php for ($i=1; $i <= 5 ; $i++) { ?>
           <a aria-label="Link_Title" title="Link_Title" class="topic-sidebar-link" href="topik/">
-            <div class="topic-sidebar-hashtag"><?php require ($_SERVER['HH'].'img/icon/hashtag.svg')?></div>
+            <div class="topic-sidebar-place content_center">
+			  <?php require ($_SERVER['HH'].'img/icon/topic-number.svg')?>
+			  <b class="topic-sidebar-number">0</b>
+			</div>
             <h2 class="topic-sidebar-title"><?php echo $random_topic[array_rand($random_topic)]; ?></h2>
-            <div class="topic-sidebar-article">0000 Artikel</div>
           </a>
         <?php } ?>
       </div>
     </section>
+	
+	
+	
+    <?php require ($_SERVER['HH'].'iklan/iklan-300x250.php')?>
   </div>
 </div>

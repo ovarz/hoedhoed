@@ -105,6 +105,15 @@ display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end; alig
 
 
 
+.topic-sidebar-container{display:grid; grid-gap:var(--size-3);}
+.topic-sidebar-link{--icon-size:34px; display:grid; grid-gap:var(--size-2); grid-template-columns:var(--icon-size) 1fr; align-items:center;}
+.topic-sidebar-place{position:relative; min-height:var(--icon-size);}
+.topic-sidebar-place .svgicon{position:absolute; z-index:1; top:0; left:0; width:100%; height:auto;} 
+.topic-sidebar-number{position:relative; z-index:1000; color:var(--bg-2);}
+.topic-sidebar-title{text-transform:uppercase;}
+
+
+
 .slotiklan{overflow:hidden; position:relative; line-height:0;}
 .slotiklan-300x250{contain-intrinsic-size:300px 250px; height:250px;}
 .slotiklan-320x100{contain-intrinsic-size:320px 100px; height:100px;}

@@ -76,6 +76,10 @@ display:-webkit-box !important; visibility:visible !important; content-visibilit
 
 
 
+.topic-sidebar-place .svgicon{fill:var(--color-text-3);}
+
+
+
 footer{margin-top:var(--size-6);}
 
 

@@ -39,8 +39,8 @@ function open_sticky(){
     var get_id = $(this).attr('title');
 	$('.open-sticky[title=' + get_id +']').toggleClass('show-sticky');
 	$('.open-sticky').not('.open-sticky[title=' + get_id +']').removeClass('show-sticky');
-    $('#float-' + get_id).slideToggle('fast');
-    $('.rancak-popup').not('#float-' + get_id).slideUp('fast');
+    $('#popup-' + get_id).slideToggle('fast');
+    $('.rancak-popup').not('#popup-' + get_id).slideUp('fast');
     return false;
   });	
 };

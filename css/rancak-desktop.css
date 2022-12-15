@@ -9,6 +9,19 @@
 header{height:90px; margin:var(--size-4) 0;}
 header .width-max{align-items:flex-end;}
 .header-logo img{height:48px;}
+
+
+
+nav{position:-webkit-sticky; position:sticky; top:0; display:flex !important;}
+nav .width-max{display:flex; justify-content:space-between;}
+
+menu{display:flex;}
+menu > .menu-link:first-child{border-left:1px solid;}
+.menu-link{height:var(--size-6); padding:0 var(--size-3); border-right:1px solid;}
+.menu-more{position:relative;}
+.menu-sub{position:absolute; left:0; top:0; min-width:144px; padding-top:var(--size-6); display:none;}
+.menu-sub-box .menu-link{justify-content:flex-start;}
+.menu-more:hover .menu-sub{display:block;}
   
   
 

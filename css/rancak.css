@@ -67,6 +67,12 @@ header .width-max{display:flex; justify-content:space-between;}
 
 
 
+nav{z-index:calc(var(--max-zindex) - 6000);}
+
+.menu-link{text-transform:uppercase; position:relative;}
+
+
+
 .rancak-container{position:relative;}
 .rancak-container > .width-max{display:block;}
 .main-container{display:grid; grid-gap:var(--size-5);}
@@ -116,6 +122,10 @@ header .width-max{display:flex; justify-content:space-between;}
   .header-logo img{height:32px;}
   .header-link .svgicon{height:calc(var(--logo-size) - 4px);}
   .header-menu-toggle{padding-right:var(--size-4);}
+  
+  
+  
+  nav.content_center{display:none;}
   
   
   

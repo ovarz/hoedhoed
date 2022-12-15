@@ -22,7 +22,7 @@
         </a>
       <?php } ?>
       <?php if($show_channel == 'yes') { ?>
-        <a aria-label="Link_Title" title="Link_Title" class="content-info-channel" href="author/">
+        <a aria-label="Link_Title" title="Link_Title" class="content-info-channel" href="<?php echo $channel_link; ?>/">
           <?php echo $random_channel[array_rand($random_channel)]; ?>
         </a>
       <?php } ?>

@@ -8,7 +8,7 @@
 <?php require ($_SERVER['HH'].'inc/meta.php')?>
 <?php $channel_link='news'; require ($_SERVER['HH'].'inc/top.php')?>
 <?php require ($_SERVER['HH'].'inc/header.php')?>
-<?php require ($_SERVER['HH'].'inc/menu-main.php')?>
+<?php require ($_SERVER['HH'].'inc/nav.php')?>
 <div class="iklan-topbanner mobile-only"><?php require ($_SERVER['HH'].'iklan/iklan-320x100.php')?></div>
 <div class="rancak-container">
   <span class="width-max">

@@ -1,4 +1,4 @@
-<nav id="popup-MainMenu" class="content_center">
+<nav id="popup-MenuMain" class="rancak-popup content_center">
   <span class="width-max">
     <div class="nav-left">
 	  <menu>
@@ -32,7 +32,19 @@
 	  </menu>
 	</div>
     <div class="nav-right">
-	  right
+	  <a aria-label="Rodanesia" title="Rodanesia" class="menu-link content_center" href="">
+	    <div class="menu-dummy-button content_center">
+		  <img alt="img_title" class="lazyload" data-original="img/logo-rodanesia.png" />
+		</div>
+	  </a>
+	  <a aria-label="Whatchis" title="Whatchis" class="menu-link content_center" href="">
+	    <div class="menu-dummy-button content_center">
+	      <span>Whatchis</span>
+		</div>
+	  </a>
+	  <button title="Search" class="menu-link menu-search open-sticky content_center desktop-only">
+        <?php require ($_SERVER['HH'].'img/icon/search.svg')?>
+      </button>
 	</div>
   </span>
 </nav>

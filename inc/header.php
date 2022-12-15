@@ -14,7 +14,7 @@
 	  <button title="Search" class="header-link header-search open-sticky content_center mobile-only">
         <?php require ($_SERVER['HH'].'img/icon/search.svg')?>
       </button>
-	  <button title="MainMenu" class="header-link header-menu-toggle open-sticky content_center mobile-only">
+	  <button title="MenuMain" class="header-link header-menu-toggle open-sticky content_center mobile-only">
         <?php require ($_SERVER['HH'].'img/icon/menu.svg')?>
       </button>
 	  <div class="header-leaderboard desktop-only">

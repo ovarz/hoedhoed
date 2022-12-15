@@ -20,15 +20,50 @@
 	
 	  <div class="column-left column-big">
 	    <div class="column-container">
-		  <section aria-label="Terbaru" class="section-container content-list">
+		  <section aria-label="Terkini" class="section-container content-list">
 		    <div class="section-title">
-			  <div class="section-title-name">Terbaru</div>
+			  <div class="section-title-name">Terkini</div>
 			</div>
 		    <div class="content-list-container">
-              <?php $image_size='default'; $show_author='yes'; $show_channel='no'; $show_time='yes'; $show_comment='yes'; $show_description='yes'; $channel_link='news';
+              <?php $show_thumbnail='yes'; $show_author='yes'; $show_channel='no'; $show_date='yes'; $show_time='yes'; $show_comment='yes'; $show_description='yes'; 
+			  $image_size='default'; $channel_link='news';
               require ($_SERVER['HH'].'module/content-list.php') ?>
-			  <?php for ($i=1; $i <= 9 ; $i++) { ?>
-			    <?php $image_size='default'; $show_author='no'; $show_channel='yes'; $show_time='yes'; $show_comment='yes'; $show_description='yes'; $channel_link='news';
+			  <?php for ($i=1; $i <= 4 ; $i++) { ?>
+			    <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='yes'; $show_date='yes'; $show_time='yes'; $show_comment='yes'; $show_description='yes'; 
+				$image_size='default'; $channel_link='news';
+				require ($_SERVER['HH'].'module/content-list.php') ?>
+			  <?php } ?>
+			</div>
+		  </section>
+		  
+		  
+		  
+		  <section aria-label="Foto" class="section-container content-list">
+		    <div class="section-title">
+			  <div class="section-title-name">Foto</div>
+			</div>
+		    <div class="media-list-container">
+              <?php for ($i=1; $i <= 6 ; $i++) { ?>
+			    <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_comment='no'; $show_description='yes'; 
+				$image_size='default'; $channel_link='foto';
+				require ($_SERVER['HH'].'module/content-list.php') ?>
+			  <?php } ?>
+			</div>
+		  </section>
+		  
+		  
+		  
+		  <section aria-label="Jangan Lewatkan" class="section-container content-list">
+		    <div class="section-title">
+			  <div class="section-title-name">Jangan Lewatkan</div>
+			</div>
+		    <div class="content-list-container">
+              <?php $show_thumbnail='yes'; $show_author='yes'; $show_channel='no'; $show_date='yes'; $show_time='yes'; $show_comment='yes'; $show_description='yes'; 
+			  $image_size='default'; $channel_link='news';
+              require ($_SERVER['HH'].'module/content-list.php') ?>
+			  <?php for ($i=1; $i <= 4 ; $i++) { ?>
+			    <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='yes'; $show_date='yes'; $show_time='yes'; $show_comment='yes'; $show_description='yes'; 
+				$image_size='default'; $channel_link='news';
 				require ($_SERVER['HH'].'module/content-list.php') ?>
 			  <?php } ?>
 			</div>

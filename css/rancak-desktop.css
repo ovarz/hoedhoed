@@ -14,6 +14,8 @@ header .width-max{align-items:flex-end;}
 
 nav{position:-webkit-sticky; position:sticky; top:0; display:flex !important;}
 nav .width-max{display:flex; justify-content:space-between;}
+nav .svgicon{width:auto; height:18px;}
+.nav-left, .nav-right{display:flex;}
 
 menu{display:flex;}
 menu > .menu-link:first-child{border-left:1px solid;}

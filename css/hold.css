@@ -53,16 +53,14 @@ z-index:calc(var(--max-zindex) - 10000); width:40px; height:40px; background-col
 
 
 
-header{border-color:rgb(var(--color-border-dark) / 8%);}
 
-
-
-nav{background-color:var(--color-text-3);}
-
-.menu-link{color:var(--bg-2) !important;}
+.menu-link{color:var(--bg-2) !important; fill:var(--bg-2) !important;}
 .menu-curr{background-color:var(--color-text-5) !important;}
 .menu-curr:after{content:''; display:block; position:absolute; bottom:0; left:0; background-color:rgb(var(--color-border-dark) / 21%);}
 .menu-more{transition:var(--transition-default);}
+.menu-dummy-button{border-radius:var(--size-4); overflow:hidden;}
+.menu-link[title="Rodanesia"] .menu-dummy-button{background-color:var(--bg-2);}
+.menu-link[title="Whatchis"] .menu-dummy-button{background-color:#128d0e;}
 
 
 
@@ -71,16 +69,27 @@ nav{background-color:var(--color-text-3);}
 .content-info-misc a{color:var(--color-text-3);}
 .content-info-misc a:hover{color:var(--color-text-2);}
 
+.media-list-container .content-info{background-color:rgb(var(--color-border-dark) / 55%); transition:var(--transition-default);}
+.media-list-container .content-info-title{color:var(--bg-2);}
+.media-list-container .content-info-desc{color:rgb(var(--color-border-light) / 89%); 
+display:-webkit-box !important; visibility:visible !important; content-visibility:visible !important;}
 
 
-footer.footer-all{margin-top:var(--size-6);}
+
+footer{margin-top:var(--size-6);}
 
 
 
 
 
 @media screen and (min-width:0px) and (max-width:1023px){
-  nav.content_center{position:-webkit-sticky; position:sticky; top:var(--size-6); max-height:calc(100vh - var(--size-7)); align-items:flex-start; overflow-y:auto;}
+  header{box-shadow:var(--shadow-default);}
+  .header-menu-toggle.show-sticky{background-color:var(--color-text-3); fill:var(--bg-1); padding-left:var(--size-4);}
+  
+  
+  
+  nav.content_center{position:-webkit-sticky; position:sticky; top:var(--size-6); padding:var(--size-4);}
+  nav .width-max{background-color:var(--color-text-3); display:grid; align-items:flex-start; max-height:calc(100vh - 144px); overflow-y:auto; box-shadow:var(--shadow-neumorp);}
 
   .menu-link{padding:var(--size-4); border-bottom:1px solid rgb(var(--color-border-dark) / 13%); justify-content:flex-start;}
   .menu-curr:after{width:var(--size-1); height:100%;}
@@ -91,6 +100,8 @@ footer.footer-all{margin-top:var(--size-6);}
 
 
 @media screen and (min-width:1024px){
+  nav{background-color:var(--color-text-3);}
+  
   .menu-link{border-color:rgb(var(--color-border-dark) / 13%) !important;}
   .menu-link:hover, .menu-more:hover, .menu-sub-box{background-color:var(--color-text-2);}
   .menu-curr:after{width:100%; height:var(--size-1);}

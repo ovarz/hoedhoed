@@ -70,6 +70,8 @@ header .width-max{display:flex; justify-content:space-between;}
 nav{z-index:calc(var(--max-zindex) - 6000);}
 
 .menu-link{text-transform:uppercase; position:relative;}
+.menu-dummy-button{padding:var(--size-2) var(--size-4); height:36px; font-size:12px;}
+.menu-dummy-button img{width:auto; height:100%;}
 
 
 
@@ -82,7 +84,7 @@ nav{z-index:calc(var(--max-zindex) - 6000);}
 
 .content-list-container{display:grid; grid-gap:var(--size-4);}
 
-.content-box{--thumb-size:76px; display:grid; grid-gap:var(--size-3); grid-template-columns:var(--thumb-size) 1fr;}
+.content-box{--thumb-size:76px; display:grid; grid-gap:var(--size-3); grid-template-columns:var(--thumb-size) 1fr; position:relative;}
 .content-thumb-frame:before{padding-top:100%;}
 .content-info{font-size:12px;}
 .content-info-misc{display:flex; flex-wrap:wrap;}
@@ -90,6 +92,16 @@ nav{z-index:calc(var(--max-zindex) - 6000);}
 .content-info-misc a{font-weight:normal;}
 .content-info-title h2, .content-info-desc{display:-webkit-box; -webkit-box-orient:vertical; overflow:hidden;}
 .content-info-title h2{font-family:'Exo',sans-serif; font-size:var(--title-fontsize); line-height:150%; -webkit-line-clamp:2;}
+.content-info-desc{-webkit-line-clamp:2 !important;}
+
+.media-list-container{display:grid; grid-gap:var(--size-3); grid-template-columns:repeat(auto-fit, minmax(240px,1fr));}
+.media-list-container .content-box{grid-template-columns:1fr; overflow:hidden;}
+.media-list-container .content-thumb-frame:before{padding-top:56.25% !important;}
+.media-list-container .content-info{position:absolute; z-index:1000; top:100%; left:0; width:100%; height:100%; padding:var(--size-3);
+display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end; align-content:flex-end;}
+.media-list-container .content-box:hover .content-info{top:0;}
+.media-list-container .content-info > *{width:100%;}
+.media-list-container .content-info-desc{-webkit-line-clamp:2;}
 
 
 
@@ -115,7 +127,7 @@ nav{z-index:calc(var(--max-zindex) - 6000);}
   
   
   
-  header{--logo-size:24px; position:-webkit-sticky; position:sticky; top:0; background-color:var(--bg-2); border-bottom:1px solid;}
+  header{--logo-size:24px; position:-webkit-sticky; position:sticky; top:0; background-color:var(--bg-2);}
   .header-left, .header-right{display:flex;}
   .header-link{height:var(--size-6); padding:0 var(--size-3);}
   .header-logo{padding-left:var(--size-4);}

@@ -20,6 +20,17 @@
 	
 	  <div class="column-left column-big">
 	    <div class="column-container">
+		  <section aria-label="Headline" class="headline">
+		    <style><?php require ($_SERVER['HH'].'css/headline.css')?></style>
+		    <div class="headline-container">
+              <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_comment='no'; $show_description='no'; 
+			  $image_size='big'; $channel_link='news';
+              require ($_SERVER['HH'].'module/content-list.php') ?>
+			</div>
+		  </section>
+		  
+		  
+		  
 		  <section aria-label="Terkini" class="section-container content-list">
 		    <div class="section-title">
 			  <div class="section-title-name">Terkini</div>

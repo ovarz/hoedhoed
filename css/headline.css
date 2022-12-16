@@ -1,0 +1,21 @@
+.headline .content-box{grid-template-columns:1fr;}
+.headline .content-thumb-frame:before{padding-top:56.25%; position:relative; z-index:1000;
+background:linear-gradient(to bottom, rgb(var(--color-border-dark) / 0%) 55%, rgb(var(--color-border-dark) / 100%) 100%);}
+.headline .content-info{position:absolute; z-index:2000; bottom:0; left:0; width:100%; padding:var(--size-4);}
+.headline .content-info-title{color:var(--bg-2);}
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:1023px){
+  
+}
+
+
+
+
+
+@media screen and (min-width:1024px){
+  .headline .content-info-title h2{font-size:24px;}
+}

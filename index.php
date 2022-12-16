@@ -31,6 +31,19 @@
 		  
 		  
 		  
+		  <section aria-label="Stories" class="section-container stories">
+		    <style><?php require ($_SERVER['HH'].'css/stories.css')?></style>
+		    <div class="stories-container">
+			  <?php for ($i=1; $i <= 4 ; $i++) { ?>
+			    <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_comment='no'; $show_description='no'; 
+				$image_size='big'; $channel_link='news';
+				require ($_SERVER['HH'].'module/content-list.php') ?>
+			  <?php } ?>
+			</div>
+		  </section>
+		  
+		  
+		  
 		  <section aria-label="Terkini" class="section-container content-list">
 		    <div class="section-title">
 			  <div class="section-title-name">Terkini</div>

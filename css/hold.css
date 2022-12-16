@@ -88,7 +88,14 @@ display:-webkit-box !important; visibility:visible !important; content-visibilit
 
 .widget-rodanesia .box-container{background-color:var(--color-text-5);}
 .widget-rodanesia .content-info-title{color:var(--bg-2);}
-.widget-rodanesia .content-info-misc *{color:rgb(var(--color-border-light) / 89%); border-color:rgb(var(--color-border-light) / 55%);}
+.widget-rodanesia .content-info-misc > *{color:rgb(var(--color-border-light) / 89%); border-color:rgb(var(--color-border-light) / 55%);}
+
+
+.infographic{background-color:var(--color-text-2);}
+.infographic .content-info *{color:rgb(var(--color-border-light) / 55%);}
+.infographic .content-info .section-title{border-color:rgb(var(--color-border-light) / 21%);}
+.infographic .section-title-name, .infographic .content-info .content-info-title{color:var(--bg-2) !important;}
+.infographic .content-info .content-info-title h2{color:inherit !important;}
 
 
 .standing-row{border-color:rgb(var(--color-border-dark) / 13%);}

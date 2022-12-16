@@ -81,6 +81,23 @@
     </section>
 	
 	
+	
+    <?php require ($_SERVER['HH'].'iklan/iklan-300x250.php')?>
+	
+	
+  
+    <section aria-label="Wawancara" class="section-container content-list infographic">
+      <div class="section-title">
+        <div class="section-title-name">Infografis</div>
+      </div>
+      <div class="content-list-container infographic-container">
+        <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='no'; $show_date='yes'; $show_time='no'; $show_comment='yes'; $show_description='yes'; 
+        $image_size='default'; $channel_link='news'; 
+        require ($_SERVER['HH'].'module/content-list.php') ?>
+      </div>
+    </section>
+	
+	
   
     <section aria-label="Wawancara" class="section-container content-list">
       <div class="section-title">

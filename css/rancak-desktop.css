@@ -34,11 +34,10 @@ menu > .menu-link:first-child{border-left:1px solid;}
 
 
 
+.content-info-desc{line-height:150%; -webkit-line-clamp:3;}
+
 .column-big .content-box{--thumb-size:233px;}
 .column-big .content-thumb-frame:before{padding-top:75%;}
-.column-big .content-info-desc{margin-top:var(--size-2); line-height:150%; -webkit-line-clamp:3;}
-
-.column-small .content-info-title h2{font-size:14px;}
 
 
 

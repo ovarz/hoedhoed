@@ -4,6 +4,47 @@
 	
 	
   
+    <section aria-label="Rodanesia" class="section-container content-list widget-rodanesia">
+      <div class="section-title-image flex_ori">
+	    <img alt="Logo Rodanesia" class="lazyload" data-original="img/logo-rodanesia.png" width="125" height="34">
+      </div>
+      <div class="content-list-container box-container">
+        <?php for ($i=1; $i <= 3 ; $i++) { ?>
+          <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='yes'; $show_date='yes'; $show_time='no'; $show_comment='no'; $show_description='no'; 
+		  $image_size='default'; $channel_link='news'; 
+          require ($_SERVER['HH'].'module/content-list.php') ?>
+        <?php } ?>
+      </div>
+    </section>
+	
+	
+  
+    <section aria-label="HoedNews" class="section-container content-list">
+      <div class="section-title">
+        <div class="section-title-name">HoedNews</div>
+      </div>
+      <div class="media-list-container video-list-container">
+        <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_comment='no'; $show_description='no'; 
+        $image_size='default'; $channel_link='news'; 
+        require ($_SERVER['HH'].'module/content-list.php') ?>
+      </div>
+    </section>
+	
+	
+  
+    <section aria-label="HoedBall" class="section-container content-list">
+      <div class="section-title">
+        <div class="section-title-name">HoedBall</div>
+      </div>
+      <div class="media-list-container video-list-container">
+        <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_comment='no'; $show_description='no'; 
+        $image_size='default'; $channel_link='news'; 
+        require ($_SERVER['HH'].'module/content-list.php') ?>
+      </div>
+    </section>
+	
+	
+  
     <section aria-label="Wawancara" class="section-container content-list">
       <div class="section-title">
         <div class="section-title-name">Wawancara</div>

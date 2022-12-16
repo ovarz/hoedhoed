@@ -36,6 +36,8 @@ menu > .menu-link:first-child{border-left:1px solid;}
 .column-big .content-thumb-frame:before{padding-top:75%;}
 .column-big .content-info-desc{margin-top:var(--size-2); line-height:150%; -webkit-line-clamp:3;}
 
+.column-small .content-info-title h2{font-size:14px;}
+
 
 
 .column-full{grid-column:1/3;}

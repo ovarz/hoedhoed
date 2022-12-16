@@ -35,6 +35,8 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 
 .section-title{font-family:'Exo',sans-serif; font-size:var(--title-fontsize); position:relative; margin-bottom:var(--size-4); border-bottom:1px solid; display:flex;}
 .section-title-name{position:relative; padding-bottom:var(--size-2); border-bottom:3px solid; text-transform:uppercase; font-weight:bold;}
+.section-title-image{height:45px; margin-bottom:var(--size-3);}
+.section-title-image.flex_ori img{object-fit:contain; object-position:left center;}
 
 
 
@@ -79,6 +81,7 @@ nav{z-index:calc(var(--max-zindex) - 6000);}
 .rancak-container > .width-max{display:block;}
 .main-container{display:grid; grid-gap:var(--size-5);}
 .column-container{display:grid; grid-template-columns:1fr; grid-template-rows:min-content; grid-row-gap:var(--size-5);}
+.box-container{padding:var(--size-3);}
 
 
 
@@ -94,9 +97,6 @@ nav{z-index:calc(var(--max-zindex) - 6000);}
 .content-info-title h2{font-family:'Exo',sans-serif; font-size:var(--title-fontsize); line-height:150%; -webkit-line-clamp:2;}
 .content-info-desc{-webkit-line-clamp:2 !important;}
 
-.video-icon{position:absolute; z-index:1000; top:0; left:0; width:100%; height:100%; opacity:0.55;}
-.video-icon .svgicon{width:48px; height:auto;}
-
 .media-list-container{display:grid; grid-gap:var(--size-3); grid-template-columns:repeat(auto-fit, minmax(240px,1fr));}
 .media-list-container .content-box{grid-template-columns:1fr; overflow:hidden;}
 .media-list-container .content-thumb-frame:before{padding-top:56.25% !important;}
@@ -105,6 +105,11 @@ display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end; alig
 .media-list-container .content-box:hover .content-info{top:0;}
 .media-list-container .content-info > *{width:100%;}
 .media-list-container .content-info-desc{-webkit-line-clamp:2;}
+
+.video-icon{position:absolute; z-index:1000; top:0; left:0; width:100%; height:100%; opacity:0.55;}
+.video-icon .svgicon{width:48px; height:auto;}
+
+.video-list-container .content-info{top:auto !important; bottom:0 !important; height:55%;}
 
 
 

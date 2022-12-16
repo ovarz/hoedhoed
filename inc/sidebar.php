@@ -95,6 +95,13 @@
         $image_size='default'; $channel_link='news'; 
         require ($_SERVER['HH'].'module/content-list.php') ?>
       </div>
+      <div class="infographic-split">
+        <?php for ($i=1; $i <= 2 ; $i++) { ?>
+          <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_comment='no'; $show_description='no'; 
+		  $image_size='default'; $channel_link='news'; 
+          require ($_SERVER['HH'].'module/content-list.php') ?>
+        <?php } ?>
+      </div>
     </section>
 	
 	

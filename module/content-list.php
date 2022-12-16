@@ -9,6 +9,11 @@
           <img alt="img_title" class="lazyload" data-original="img/sample/minisample-<?php echo rand(1,20); ?>.jpg"
           data-srcset="img/sample/minisample-<?php echo rand(1,20); ?>.jpg 640w, img/sample/sample-<?php echo rand(1,20); ?>.jpg 1920w" />
         <?php } ?>
+		<?php if($channel_link == 'video') { ?>
+		<div class="video-icon content_center">
+		  <?php require ($_SERVER['HH'].'img/icon/play-circle.svg')?>
+		</div>
+        <?php } ?>
       </a>
     </div>
   <?php } ?>

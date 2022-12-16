@@ -36,7 +36,7 @@
 		    <div class="stories-container">
 			  <?php for ($i=1; $i <= 4 ; $i++) { ?>
 			    <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_comment='no'; $show_description='no'; 
-				$image_size='big'; $channel_link='news';
+				$image_size='big'; $channel_link='video';
 				require ($_SERVER['HH'].'module/content-list.php') ?>
 			  <?php } ?>
 			</div>

@@ -3,6 +3,7 @@
 background:linear-gradient(to bottom, rgb(var(--color-border-dark) / 0%) 55%, rgb(var(--color-border-dark) / 100%) 100%);}
 .headline .content-info{position:absolute; z-index:2000; bottom:0; left:0; width:100%; padding:var(--size-4);}
 .headline .content-info-title{color:var(--bg-2);}
+.headline .content-info-title:hover{color:var(--color-text-3);}
 
 
 

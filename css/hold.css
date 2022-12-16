@@ -96,6 +96,7 @@ display:-webkit-box !important; visibility:visible !important; content-visibilit
 .infographic .content-info .section-title{border-color:rgb(var(--color-border-light) / 21%);}
 .infographic .section-title-name, .infographic .content-info .content-info-title{color:var(--bg-2) !important;}
 .infographic .content-info .content-info-title h2{color:inherit !important;}
+.infographic .content-info-misc > *{border-color:rgb(var(--color-border-light) / 21%);}
 
 
 .standing-row{border-color:rgb(var(--color-border-dark) / 13%);}

@@ -37,14 +37,14 @@
         <div class="content-info-date">20 Sep 2022</div>
       <?php } ?>
       <?php if($show_time == 'yes') { ?>
-        <div class="content-info-date desktop-only">00:00 WIB</div>
+        <div class="content-info-time desktop-only">00:00 WIB</div>
       <?php } ?>
       <?php if($show_comment == 'yes') { ?>
         <div class="content-info-comment desktop-only">00</div>
       <?php } ?>
     </div>
     <?php if($show_description == 'yes') { ?>
-      <h4 class="content-info-desc desktop-only"><?php echo $random_desc[array_rand($random_desc)]; ?></h4>
+      <div class="content-info-desc desktop-only"><?php echo $random_desc[array_rand($random_desc)]; ?></div>
     <?php } ?>
   </div>
 </div>

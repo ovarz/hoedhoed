@@ -6,7 +6,7 @@
 background-color:rgb(var(--color-border-dark) / 55%); display:flex; justify-content:center; align-items:center; transition:var(--transition-default);}
 .stories-container .content-box:hover .content-info{top:0;}
 .stories-container .content-info-title{color:var(--bg-2);}
-.stories-container .content-info-title h2{text-align:center; -webkit-line-clamp:4;}
+.stories-container .content-info-title h2{text-align:center; -webkit-line-clamp:4; font-size:12px;}
 
 
 

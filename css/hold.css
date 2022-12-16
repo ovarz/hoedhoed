@@ -127,7 +127,7 @@ footer .width-max{padding:var(--size-5) 0;}
 .fti-email-link{display:flex;}
 .fti-email-icon .svgicon{width:auto; height:16px;}
 .fti-email-address{margin-left:var(--size-3); font-weight:normal;}
-.fti-group{display:flex;}
+.fti-group{display:flex; align-items:center;}
 .fti-group-link{margin-right:var(--size-4);}
 .fti-group-link img{width:120px; height:auto;}
 
@@ -135,8 +135,8 @@ footer .width-max{padding:var(--size-5) 0;}
 .ftm-box{display:grid; grid-gap:var(--size-1) var(--size-4); grid-template-columns:repeat(2,1fr);}
 .ftm-link{justify-content:flex-start; padding:var(--size-2) 0; border-bottom:1px dashed rgb(var(--color-border-dark) / 13%); font-weight:normal; text-transform:uppercase;}
 
-.ftf-list{display:grid; grid-gap:var(--size-3); grid-template-columns:repeat(4,1fr);}
-.ftf-link{justify-content:flex-start;}
+.ftf-list{display:flex;}
+.ftf-link{justify-content:flex-start; margin-right:var(--size-3);}
 .ftf-link:hover{opacity:var(--hover-opacity);}
 .ftf-link img{width:100%; max-width:55px; height:auto;}
 

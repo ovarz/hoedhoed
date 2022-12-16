@@ -31,7 +31,7 @@
 		    <img alt="Logo Rodanesia" class="lazyload" data-original="img/logo-rodanesia.png" width="125" height="34">
 		  </a>
 		  <a aria-label="Watchis" title="Watchis" class="fti-group-link" href="">
-		    <img alt="Logo Watchis" class="lazyload" data-original="img/logo-rodanesia.png" width="125" height="34">
+		    <img alt="Logo Watchis" class="lazyload" data-original="img/logo-watchis.png" width="147" height="30">
 		  </a>
 		</div>
 	  </div>

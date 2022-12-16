@@ -5,7 +5,7 @@
         <picture>
           <source srcset="img/logo.webp" type="image/webp">
           <source srcset="img/logo.png">
-          <img alt="Logo VIVAnews" src="img/logo.png" width="313" height="60">
+          <img alt="Logo Hoedhoed" src="img/logo.png" width="136.17" height="32">
         </picture>
       </a>
 	</div>

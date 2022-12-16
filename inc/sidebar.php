@@ -25,7 +25,20 @@
       </div>
       <div class="media-list-container video-list-container">
         <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_comment='no'; $show_description='no'; 
-        $image_size='default'; $channel_link='news'; 
+        $image_size='default'; $channel_link='video'; 
+        require ($_SERVER['HH'].'module/content-list.php') ?>
+      </div>
+    </section>
+	
+	
+  
+    <section aria-label="Indonesia Hoed" class="section-container content-list">
+      <div class="section-title">
+        <div class="section-title-name">Indonesia Hoed</div>
+      </div>
+      <div class="media-list-container video-list-container">
+        <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_comment='no'; $show_description='no'; 
+        $image_size='default'; $channel_link='video'; 
         require ($_SERVER['HH'].'module/content-list.php') ?>
       </div>
     </section>
@@ -38,7 +51,7 @@
       </div>
       <div class="media-list-container video-list-container">
         <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_comment='no'; $show_description='no'; 
-        $image_size='default'; $channel_link='news'; 
+        $image_size='default'; $channel_link='video'; 
         require ($_SERVER['HH'].'module/content-list.php') ?>
       </div>
     </section>

@@ -249,25 +249,33 @@ $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousew
               .stories-container .content-info-title{color:var(--bg-2);}
               .stories-container .content-info-title h2{text-align:center; -webkit-line-clamp:4;}
 
-
-
-
-
               @media screen and (min-width:0px) and (max-width:1023px){
                 .stories{height:276px; position:relative;}
                 .stories-container{position:absolute; top:0; left:0; width:100%; height:100%; grid-auto-flow:column; overflow-x:auto;}
                 .stories-container .content-box{width:155px;}
               }
 
-
-
-
-
               @media screen and (min-width:1024px){
-                .stories-container{grid-template-columns:repeat(4,1fr);}
+                .stories-container{grid-template-columns:repeat(5,1fr);}
               }
 			</style>
 		    <div class="stories-container">
+			  
+              <div class="content-box">
+                <div class="content-thumb">
+                  <a aria-label="Link_Title" title="Link_Title" class="content-thumb-frame flex_ori thumb-loading" href="video/detail.php">
+                    <img alt="img_title" class="lazyload" data-original="img/sample/sample-1.jpg" />
+                    <div class="video-icon content_center">
+                      <svg class="svgicon svgicon-circle-play" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512"><path d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM176 168V344C176 352.7 180.7 360.7 188.3 364.9C195.8 369.2 205.1 369 212.5 364.5L356.5 276.5C363.6 272.1 368 264.4 368 256C368 247.6 363.6 239.9 356.5 235.5L212.5 147.5C205.1 142.1 195.8 142.8 188.3 147.1C180.7 151.3 176 159.3 176 168V168z"/></svg>
+                    </div>
+                  </a>
+                </div>
+                <div class="content-info">
+                  <a aria-label="Link_Title" title="Link_Title" class="content-info-title" href="video/detail.php">
+                    <h2>Lorem Ipsum Dolor Sit Amet</h2>
+                  </a>
+                </div>
+              </div>
 			  
               <div class="content-box">
                 <div class="content-thumb">

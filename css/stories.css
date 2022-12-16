@@ -23,5 +23,5 @@ background-color:rgb(var(--color-border-dark) / 55%); display:flex; justify-cont
 
 
 @media screen and (min-width:1024px){
-  .stories-container{grid-template-columns:repeat(4,1fr);}
+  .stories-container{grid-template-columns:repeat(5,1fr);}
 }

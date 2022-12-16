@@ -116,6 +116,8 @@ display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end; alig
 .standing-row{display:grid; grid-template-columns:auto 1fr auto; border-bottom:1px dashed;}
 .standing-row > div{padding:var(--size-2);}
 .standing-name, .standing-record{font-weight:bold;}
+.standing-name{text-transform:uppercase;}
+.standing-origin{font-size:12px;}
 
 .standing-head > *{font-weight:normal !important; text-transform:uppercase;}
 .standing-head .standing-number{grid-column:1/3;}

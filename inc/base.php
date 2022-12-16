@@ -13,6 +13,7 @@
   $kanal_array[]=array('kanal_id'=>'entertainment','kanal_name'=>'Entertainment','kanal_link'=>'news/','custom_class'=>'');
   $kanal_array[]=array('kanal_id'=>'lifestyle','kanal_name'=>'Lifestyle','kanal_link'=>'news/','custom_class'=>'');
   
+  $subkanal_array = array();
   $subkanal_array[]=array('kanal_id'=>'tech','kanal_name'=>'Tech','kanal_link'=>'news/','custom_class'=>'');
   $subkanal_array[]=array('kanal_id'=>'sport','kanal_name'=>'Sport','kanal_link'=>'news/','custom_class'=>'');
   $subkanal_array[]=array('kanal_id'=>'otomotif','kanal_name'=>'Otomotif','kanal_link'=>'news/','custom_class'=>'');

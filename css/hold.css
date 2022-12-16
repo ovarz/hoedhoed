@@ -53,6 +53,10 @@ z-index:calc(var(--max-zindex) - 10000); width:40px; height:40px; background-col
 
 
 
+.header-logo:hover{opacity:var(--hover-opacity);}
+
+
+
 
 .menu-link{color:var(--bg-2) !important; fill:var(--bg-2) !important;}
 .menu-curr{background-color:var(--color-text-5) !important;}
@@ -64,7 +68,7 @@ z-index:calc(var(--max-zindex) - 10000); width:40px; height:40px; background-col
 
 
 
-.content-thumb-frame:hover{opacity:0.55;}
+.content-thumb-frame:hover{opacity:var(--hover-opacity);}
 .content-info-misc > *{border-color:rgb(var(--color-border-dark) / 21%);}
 .content-info-misc a{color:var(--color-text-3);}
 .content-info-misc a:hover{color:var(--color-text-2);}
@@ -86,7 +90,6 @@ footer .width-max{padding:var(--size-5) 0;}
 .footer-top, .footer-bottom{display:flex; justify-content:center;}
 .footer-top{background-color:#E5E4E2;}
 .footer-top .width-max{display:grid; grid-gap:var(--size-6); grid-template-columns:repeat(auto-fit, minmax(240px,1fr));}
-.footer-top .section-title{margin-bottom:var(--size-2);}
 
 .footer-top-info{display:grid; grid-gap:var(--size-4); grid-auto-rows:min-content;}
 .fti-logo img{width:100%; height:auto; max-width:250px;}
@@ -99,12 +102,22 @@ footer .width-max{padding:var(--size-5) 0;}
 .fti-group-link{margin-right:var(--size-4);}
 .fti-group-link img{width:120px; height:auto;}
 
+.footer-top-menu .section-title{margin-bottom:var(--size-2);}
 .ftm-box{display:grid; grid-gap:var(--size-1) var(--size-4); grid-template-columns:repeat(2,1fr);}
 .ftm-link{justify-content:flex-start; padding:var(--size-2) 0; border-bottom:1px dashed rgb(var(--color-border-dark) / 13%); font-weight:normal; text-transform:uppercase;}
+
+.ftf-list{display:grid; grid-gap:var(--size-3); grid-template-columns:repeat(4,1fr);}
+.ftf-link{justify-content:flex-start;}
+.ftf-link:hover{opacity:var(--hover-opacity);}
+.ftf-link img{width:100%; max-width:55px; height:auto;}
 
 .footer-bottom{background-color:var(--color-text-2); color:rgb(var(--color-border-light) / 64%); font-size:12px;}
 .footer-bottom-info{display:flex; flex-wrap:wrap;}
 .footer-bottom-link{color:var(--bg-2); font-weight:normal;}
+.ftf-mail-box{display:flex;}
+.ftf-mail-field, .ftf-mail-button{padding:var(--size-2) var(--size-3);}
+.ftf-mail-label{font-size:12px; margin-top:var(--size-4); margin-bottom:var(--size-1);}
+.ftf-mail-button{background-color:var(--color-text-3); color:var(--bg-2);}
 
 
 

@@ -56,19 +56,33 @@
 		</div>
 	  </div>
 	  
-	  <div class="footer-top-menu">
+	  <div class="footer-top-follow">
 		<div class="section-title">
 		  <div class="section-title-name">Ikuti Kami</div>
 		</div>
-		<div class="ftm-box">
+		<div class="ftf-list">
           <?php 
-            foreach($kanal_array as $kanal_list){
+            $follow_array = array();
+            $follow_array[]=array('follow_id'=>'facebook','follow_name'=>'Facebook','follow_link'=>'');
+            $follow_array[]=array('follow_id'=>'twitter','follow_name'=>'Twitter','follow_link'=>'');
+            $follow_array[]=array('follow_id'=>'instagram','follow_name'=>'Instagram','follow_link'=>'');
+            $follow_array[]=array('follow_id'=>'youtube','follow_name'=>'Youtube','follow_link'=>'');
+            foreach($follow_array as $follow_list){
           ?>
-            <a aria-label="<?php echo($kanal_list['kanal_name'])?>" title="<?php echo($kanal_list['kanal_name'])?>" class="ftm-link content_center"
-            href="<?php echo($kanal_list['kanal_link'])?>">
-              <?php echo($kanal_list['kanal_name'])?>
+            <a aria-label="<?php echo($follow_list['follow_name'])?>" title="<?php echo($follow_list['follow_name'])?>" class="ftf-link content_center"
+            href="<?php echo($follow_list['follow_link'])?>">
+			  <img alt="img_title" class="lazyload" data-original="img/icon/footer-<?php echo($follow_list['follow_id']); ?>.png" />
             </a>
           <?php } ?>
+		</div>
+		<div class="ftf-mail">
+		  <div class="ftf-mail-label">Ingin menerima berita terkini setiap hari?</div>
+		  <div class="ftf-mail-box">
+		    <input class="ftf-mail-field" name="" type="text" autocomplete="off" placeholder="Masukkan alamat email.....">
+			<button class="ftf-mail-button content_center">
+			  <span>Daftar</span>
+			</button>
+		  </div>
 		</div>
 	  </div>
 	</span>

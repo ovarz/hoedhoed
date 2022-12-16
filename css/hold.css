@@ -89,6 +89,13 @@ display:-webkit-box !important; visibility:visible !important; content-visibilit
 .widget-rodanesia .content-info-misc *{color:rgb(var(--color-border-light) / 89%); border-color:rgb(var(--color-border-light) / 55%);}
 
 
+.standing-row{border-color:rgb(var(--color-border-dark) / 13%);}
+.standing-row:nth-child(even){background-color:rgb(var(--color-border-dark) / 5%);}
+.standing-name, .standing-record{color:var(--color-text-2);}
+
+.standing-head > *{color:var(--color-text-2);}
+
+
 
 .topic-sidebar-place .svgicon{fill:var(--color-text-3);}
 

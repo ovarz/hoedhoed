@@ -4,6 +4,30 @@
 	
 	
   
+    <section aria-label="Terpopuler" class="section-container content-list widget-standing">
+      <div class="section-title">
+        <div class="section-title-name">Terpopuler</div>
+      </div>
+      <div class="standing-container">
+	    <div class="standing-row standing-head">
+		  <div class="standing-number">Position</div>
+		  <div class="standing-record">Match Record</div>
+		</div>
+        <?php for ($i=1; $i <= 5 ; $i++) { ?>
+	    <div class="standing-row">
+		  <div class="standing-number">0</div>
+		  <div class="standing-info">
+		    <div class="standing-name"><?php echo $random_author[array_rand($random_author)]; ?></div>
+		    <div class="standing-origin"><?php echo $random_origin[array_rand($random_origin)]; ?></div>
+		  </div>
+		  <div class="standing-record">00-00</div>
+		</div>
+        <?php } ?>
+      </div>
+    </section>
+	
+	
+  
     <section aria-label="Rodanesia" class="section-container content-list widget-rodanesia">
       <div class="section-title-image flex_ori">
 	    <img alt="Logo Rodanesia" class="lazyload" data-original="img/logo-rodanesia.png" width="125" height="34">
@@ -64,7 +88,7 @@
       </div>
       <div class="content-list-container">
         <?php for ($i=1; $i <= 5 ; $i++) { ?>
-          <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='yes'; $show_date='yes'; $show_time='no'; $show_comment='no'; $show_description='no'; 
+          <?php $show_thumbnail='yes'; $show_author='yes'; $show_channel='no'; $show_date='yes'; $show_time='no'; $show_comment='no'; $show_description='no'; 
 		  $image_size='default'; $channel_link='news'; 
           require ($_SERVER['HH'].'module/content-list.php') ?>
         <?php } ?>

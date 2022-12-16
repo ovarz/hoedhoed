@@ -124,6 +124,10 @@ display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end; alig
 
 
 
+.internal-promo-link{display:block;}
+
+
+
 .topic-sidebar-container{display:grid; grid-gap:var(--size-3);}
 .topic-sidebar-link{--icon-size:34px; display:grid; grid-gap:var(--size-2); grid-template-columns:var(--icon-size) 1fr; align-items:center;}
 .topic-sidebar-place{position:relative; min-height:var(--icon-size);}

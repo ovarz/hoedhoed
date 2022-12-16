@@ -97,7 +97,11 @@
 	
 	
 	
-    <?php require ($_SERVER['HH'].'iklan/iklan-300x250.php')?>
+    <section aria-label="Internal Promo" class="section-container">
+      <a aria-label="Link_Title" title="Link_Title" class="internal-promo-link" href="">
+	    <img alt="img_title" class="lazyload" data-original="img/hoed-pemilu.png" width="279" height="178" />
+	  </a>
+    </section>
     
     
     

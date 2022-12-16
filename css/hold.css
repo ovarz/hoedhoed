@@ -96,6 +96,9 @@ display:-webkit-box !important; visibility:visible !important; content-visibilit
 .standing-head > *{color:var(--color-text-2);}
 
 
+.internal-promo-link:hover{opacity:var(--hover-opacity);}
+
+
 
 .topic-sidebar-place .svgicon{fill:var(--color-text-3);}
 

@@ -29,6 +29,8 @@ menu > .menu-link:first-child{border-left:1px solid;}
 
 .rancak-container{margin-top:var(--size-5);}
 .main-container{grid-template-columns:1fr 300px; position:relative; z-index:1000;}
+.column-big-split-2{grid-template-columns:repeat(2,1fr);}
+.column-big-split-3{grid-template-columns:repeat(3,1fr);}
 
 
 

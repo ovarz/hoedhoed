@@ -92,6 +92,35 @@
 			  <?php } ?>
 			</div>
 		  </section>
+		  
+		  
+		  
+		  <div class="column-big-split column-big-split-2">
+		    <?php 
+			  $boxkanal_array = array();
+  			  $boxkanal_array[]=array('boxkanal_id'=>'news');
+  			  $boxkanal_array[]=array('boxkanal_id'=>'ekonomi');
+  			  $boxkanal_array[]=array('boxkanal_id'=>'budaya');
+  			  $boxkanal_array[]=array('boxkanal_id'=>'entertainment');
+			  foreach($boxkanal_array as $boxkanal_list){ 
+			?>
+              <section aria-label="<?php echo($boxkanal_list['boxkanal_id'])?>" class="section-container content-list">
+                <div class="section-title">
+                  <div class="section-title-name"><?php echo($boxkanal_list['boxkanal_id'])?></div>
+                </div>
+                <div class="content-list-container">
+                  <?php $show_thumbnail='yes'; $show_author='yes'; $show_channel='no'; $show_date='yes'; $show_time='no'; $show_comment='no'; $show_description='no'; 
+                  $image_size='default'; $channel_link='news';
+                  require ($_SERVER['HH'].'module/content-list.php') ?>
+                  <?php for ($i=1; $i <= 2 ; $i++) { ?>
+                    <?php $show_thumbnail='no'; $show_author='yes'; $show_channel='no'; $show_date='yes'; $show_time='no'; $show_comment='no'; $show_description='no'; 
+                    $image_size='default'; $channel_link='news';
+                    require ($_SERVER['HH'].'module/content-list.php') ?>
+                  <?php } ?>
+                </div>
+              </section>
+		    <?php } ?>
+		  </div>
 		</div>
 	  </div>
 	

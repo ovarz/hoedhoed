@@ -83,6 +83,8 @@ display:-webkit-box !important; visibility:visible !important; content-visibilit
 .video-list-container .content-info{background:linear-gradient(to bottom, rgb(var(--color-border-dark) / 0%) 0%, rgb(var(--color-border-dark) / 100%) 100%);}
 .video-list-container .content-info-title:hover{color:var(--color-text-3);}
 
+.column-big-split .content-box{border-color:rgb(var(--color-border-dark) / 13%);}
+
 
 .widget-rodanesia .box-container{background-color:var(--color-text-5);}
 .widget-rodanesia .content-info-title{color:var(--bg-2);}

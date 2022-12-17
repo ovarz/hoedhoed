@@ -63,6 +63,15 @@
 			  <?php } ?>
 			</div>
 		  </section>
+        
+        
+        
+          <section aria-label="Comments" class="section-container comment-box">
+            <div class="section-title">
+              <div class="section-title-name">Comments</div>
+            </div>
+            <div class="fb-comments" data-width="100%" data-numposts="10" order_by="reverse_time" data-href="https://developers.facebook.com/docs/plugins/comments#configurator"></div>
+          </section>
 		</div>
 	  </div>
 	

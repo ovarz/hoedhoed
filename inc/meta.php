@@ -28,6 +28,8 @@
 <?php } ?>
 <link rel="preload" as="script" href="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
 
+<meta property="fb:app_id" content="221947151281666" />
+
 <style><?php require ($_SERVER['HH'].'css/font.css')?></style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>');</script>

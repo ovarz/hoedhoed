@@ -22,7 +22,19 @@
 </script>
 <script defer src="js/lazysizes.min.js"></script>
 <script defer rancak-hold="js/rancak.js"></script>
-
+<?php if($page == 'detail') { ?>
+  <div id="fb-root"></div>
+  <script>
+  $(document).ready(function(){
+    var handler = function(e){
+      var js = document.createElement('script');
+      js.src = '//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v15.0&appId=221947151281666&autoLogAppEvents=1';
+      document.body.appendChild(js);
+    };
+    $("body,html").unbind("touchstart touchmove scroll mousedown DOMMouseScroll mousewheel keyup", handler).one("touchstart touchmove scroll mousedown DOMMouseScroll mousewheel keyup", handler);
+  });
+  </script>
+<?php } ?>
 
 
 </body>

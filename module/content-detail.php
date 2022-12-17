@@ -27,4 +27,28 @@
   <?php require ($_SERVER['HH'].'module/bacajuga.php')?>
   <p><?php echo $random_desc[array_rand($random_desc)]; ?></p>
   <p><?php echo $random_desc[array_rand($random_desc)]; ?></p>
+  
+  <div class="pagination">
+    <a aria-label="Link_Title" title="Link_Title" class="pagination-button pagination-arrow content_center" href="<?php echo $channel; ?>/detail.php">
+	  <?php require ($_SERVER['HH'].'img/icon/prev.svg')?>
+	</a>
+    <a aria-label="Link_Title" title="Link_Title" class="pagination-button content_center" href="<?php echo $channel; ?>/detail.php">
+	  <span>1</span>
+	</a>
+    <a aria-label="Link_Title" title="Link_Title" class="pagination-button pagination-curr content_center" href="<?php echo $channel; ?>/detail.php">
+	  <span>2</span>
+	</a>
+    <a aria-label="Link_Title" title="Link_Title" class="pagination-button content_center" href="<?php echo $channel; ?>/detail.php">
+	  <span>3</span>
+	</a>
+    <div class="pagination-button content_center">
+	  <span>...</span>
+	</div>
+    <a aria-label="Link_Title" title="Link_Title" class="pagination-button content_center" href="<?php echo $channel; ?>/detail.php">
+	  <span>8</span>
+	</a>
+    <a aria-label="Link_Title" title="Link_Title" class="pagination-button pagination-arrow content_center" href="<?php echo $channel; ?>/detail.php">
+	  <?php require ($_SERVER['HH'].'img/icon/next.svg')?>
+	</a>
+  </div>
 </main>

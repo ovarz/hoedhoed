@@ -3,7 +3,8 @@
     <?php require ($_SERVER['HH'].'iklan/iklan-300x250.php')?>
 	
 	
-  
+    
+	<?php if($sidebar_standing == 'show') { ?>
     <section aria-label="Terpopuler" class="section-container content-list widget-standing">
       <div class="section-title">
         <div class="section-title-name">Terpopuler</div>
@@ -25,9 +26,11 @@
         <?php } ?>
       </div>
     </section>
+	<?php } ?>
 	
 	
   
+	<?php if($sidebar_rodanesia == 'show') { ?>
     <section aria-label="Rodanesia" class="section-container content-list widget-rodanesia">
       <div class="section-title-image flex_ori">
 	    <img alt="Logo Rodanesia" class="lazyload" data-original="img/logo-rodanesia.png" width="125" height="34">
@@ -40,9 +43,11 @@
         <?php } ?>
       </div>
     </section>
+	<?php } ?>
 	
 	
   
+	<?php if($sidebar_hoednews == 'show') { ?>
     <section aria-label="HoedNews" class="section-container content-list">
       <div class="section-title">
         <div class="section-title-name">HoedNews</div>
@@ -53,9 +58,11 @@
         require ($_SERVER['HH'].'module/content-list.php') ?>
       </div>
     </section>
+	<?php } ?>
 	
 	
   
+	<?php if($sidebar_indohoed == 'show') { ?>
     <section aria-label="Indonesia Hoed" class="section-container content-list">
       <div class="section-title">
         <div class="section-title-name">Indonesia Hoed</div>
@@ -66,9 +73,11 @@
         require ($_SERVER['HH'].'module/content-list.php') ?>
       </div>
     </section>
+	<?php } ?>
 	
 	
   
+	<?php if($sidebar_hoedball == 'show') { ?>
     <section aria-label="HoedBall" class="section-container content-list">
       <div class="section-title">
         <div class="section-title-name">HoedBall</div>
@@ -79,6 +88,7 @@
         require ($_SERVER['HH'].'module/content-list.php') ?>
       </div>
     </section>
+	<?php } ?>
 	
 	
 	
@@ -86,6 +96,7 @@
     
     
     
+	<?php if($sidebar_topic == 'show') { ?>
     <section aria-label="Tren HoedHoed" class="section-container topic-sidebar">
       <div class="section-title">
         <div class="section-title-name">Tren HoedHoed</div>
@@ -102,10 +113,32 @@
         <?php } ?>
       </div>
     </section>
+	<?php } ?>
 	
 	
   
-    <section aria-label="Wawancara" class="section-container content-list infographic">
+	<?php if($sidebar_editorial == 'show') { ?>
+    <section aria-label="Wawancara" class="section-container content-list">
+      <div class="section-title">
+        <div class="section-title-name">Pilihan Editor</div>
+      </div>
+      <div class="content-list-container sidebar-editorial">
+	      <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='no'; $show_date='yes'; $show_time='no'; $show_comment='yes'; $show_description='no'; 
+		  $image_size='big'; $channel_link='news'; 
+          require ($_SERVER['HH'].'module/content-list.php') ?>
+        <?php for ($i=1; $i <= 5 ; $i++) { ?>
+          <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='no'; $show_date='yes'; $show_time='no'; $show_comment='yes'; $show_description='no'; 
+		  $image_size='default'; $channel_link='news'; 
+          require ($_SERVER['HH'].'module/content-list.php') ?>
+        <?php } ?>
+      </div>
+    </section>
+	<?php } ?>
+	
+	
+  
+	<?php if($sidebar_infografis == 'show') { ?>
+    <section aria-label="Infografis" class="section-container content-list infographic">
       <div class="section-title">
         <div class="section-title-name">Infografis</div>
       </div>
@@ -122,9 +155,11 @@
         <?php } ?>
       </div>
     </section>
+	<?php } ?>
 	
 	
   
+	<?php if($sidebar_wawancara == 'show') { ?>
     <section aria-label="Wawancara" class="section-container content-list">
       <div class="section-title">
         <div class="section-title-name">Wawancara</div>
@@ -137,14 +172,17 @@
         <?php } ?>
       </div>
     </section>
+	<?php } ?>
 	
 	
 	
+	<?php if($sidebar_promo == 'show') { ?>
     <section aria-label="Internal Promo" class="section-container">
       <a aria-label="Link_Title" title="Link_Title" class="internal-promo-link" href="">
 	    <img alt="img_title" class="lazyload" data-original="img/hoed-pemilu.png" width="279" height="178" />
 	  </a>
     </section>
+	<?php } ?>
 	
 	
 	

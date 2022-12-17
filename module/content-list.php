@@ -45,7 +45,7 @@
         <div class="content-info-time desktop-only">00:00 WIB</div>
       <?php } ?>
       <?php if($show_comment == 'yes') { ?>
-        <div class="content-info-comment desktop-only">
+        <div class="content-info-comment">
 		  <?php require ($_SERVER['HH'].'img/icon/comment.svg')?>
 		  <span>00</span>
 		</div>

@@ -120,6 +120,8 @@ display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end; alig
 .column-big-split .content-box .content-thumb-frame:before{padding-top:56.25%;}
 .column-big-split .content-box .content-info-title h2{font-size:var(--default-fontsize);}
 
+
+
 .infographic{max-width:320px; margin:0 auto !important; padding:var(--size-4);}
 .infographic .content-box{grid-template-columns:1fr;}
 .infographic .content-info-desc,
@@ -137,6 +139,14 @@ display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end; alig
 
 .standing-head > *{font-weight:normal !important; text-transform:uppercase;}
 .standing-head .standing-number{grid-column:1/3;}
+
+
+
+.sidebar-editorial{border:1px solid; padding:var(--size-3);}
+.sidebar-editorial .content-box:first-child{grid-template-columns:1fr;}
+.sidebar-editorial .content-box:first-child .content-thumb{position:relative; z-index:1;}
+.sidebar-editorial .content-box:first-child .content-thumb-frame:before{position:relative; z-index:1000; padding-top:75%;}
+.sidebar-editorial .content-box:first-child .content-info{position:absolute; z-index:2000; bottom:0; left:0; width:100%; padding:var(--size-3);}
 
 
 

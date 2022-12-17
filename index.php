@@ -149,7 +149,8 @@
 	
 	
 	
-	  <?php require ($_SERVER['HH'].'inc/sidebar.php')?>
+	  <?php $sidebar_standing='show'; $sidebar_rodanesia='show'; $sidebar_hoednews='show'; $sidebar_indohoed='show'; $sidebar_hoedball='show'; $sidebar_topic='show'; $sidebar_editorial='hide'; $sidebar_infografis='show'; $sidebar_wawancara='show'; $sidebar_promo='show';
+	  require ($_SERVER['HH'].'inc/sidebar.php')?>
 	  
 	  
 	  

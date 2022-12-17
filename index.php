@@ -149,7 +149,7 @@
 	
 	
 	
-	  <?php $sidebar_standing='show'; $sidebar_rodanesia='show'; $sidebar_hoednews='show'; $sidebar_indohoed='show'; $sidebar_hoedball='show'; $sidebar_topic='show'; $sidebar_editorial='hide'; $sidebar_infografis='show'; $sidebar_wawancara='show'; $sidebar_promo='show';
+	  <?php $sidebar_standing='show'; $sidebar_rodanesia='show'; $sidebar_hoednews='show'; $sidebar_indohoed='show'; $sidebar_hoedball='show'; $sidebar_topic='show'; $sidebar_editorial='hide'; $sidebar_infografis='show'; $sidebar_popular='show'; $sidebar_promo='show'; $sidebar_featured_video='hide';
 	  require ($_SERVER['HH'].'inc/sidebar.php')?>
 	  
 	  

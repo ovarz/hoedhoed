@@ -70,7 +70,7 @@
 	
 	
 	
-	  <?php $sidebar_standing='show'; $sidebar_rodanesia='hide'; $sidebar_hoednews='show'; $sidebar_indohoed='show'; $sidebar_hoedball='show'; $sidebar_topic='show'; $sidebar_editorial='show'; $sidebar_infografis='show'; $sidebar_wawancara='show'; $sidebar_promo='show';
+	  <?php $sidebar_standing='show'; $sidebar_rodanesia='hide'; $sidebar_hoednews='show'; $sidebar_indohoed='show'; $sidebar_hoedball='show'; $sidebar_topic='show'; $sidebar_editorial='show'; $sidebar_infografis='show'; $sidebar_popular='show'; $sidebar_promo='hide'; $sidebar_featured_video='show';
 	  require ($_SERVER['HH'].'inc/sidebar.php')?>
 	  
 	  

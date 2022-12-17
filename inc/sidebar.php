@@ -159,10 +159,10 @@
 	
 	
   
-	<?php if($sidebar_wawancara == 'show') { ?>
-    <section aria-label="Wawancara" class="section-container content-list">
+	<?php if($sidebar_popular == 'show') { ?>
+    <section aria-label="Popular Post" class="section-container content-list">
       <div class="section-title">
-        <div class="section-title-name">Wawancara</div>
+        <div class="section-title-name">Popular Post</div>
       </div>
       <div class="content-list-container">
         <?php for ($i=1; $i <= 5 ; $i++) { ?>
@@ -181,6 +181,21 @@
       <a aria-label="Link_Title" title="Link_Title" class="internal-promo-link" href="">
 	    <img alt="img_title" class="lazyload" data-original="img/hoed-pemilu.png" width="279" height="178" />
 	  </a>
+    </section>
+	<?php } ?>
+	
+	
+	
+	<?php if($sidebar_featured_video == 'show') { ?>
+    <section aria-label="Featured Video" class="section-container content-list">
+      <div class="section-title">
+        <div class="section-title-name">Featured Video</div>
+      </div>
+      <div class="media-list-container video-list-container">
+        <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_comment='no'; $show_description='no'; 
+        $image_size='default'; $channel_link='video'; 
+        require ($_SERVER['HH'].'module/content-list.php') ?>
+      </div>
     </section>
 	<?php } ?>
 	

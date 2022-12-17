@@ -153,6 +153,12 @@ display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end; alig
 
 
 
+.topic-list{border-top:1px solid; border-bottom:1px solid; padding:var(--size-4) 0 var(--size-3);}
+.topic-list-container{display:flex; flex-wrap:wrap;}
+.topic-link{margin-bottom:var(--size-2); margin-right:var(--size-2); border:1px solid; padding:var(--size-1) var(--size-3); font-weight:normal;}
+
+
+
 .slotiklan{overflow:hidden; position:relative; line-height:0;}
 .slotiklan-300x250{contain-intrinsic-size:300px 250px; height:250px;}
 .slotiklan-320x100{contain-intrinsic-size:320px 100px; height:100px;}

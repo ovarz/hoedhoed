@@ -111,10 +111,6 @@ display:-webkit-box !important; visibility:visible !important; content-visibilit
 
 
 
-.topic-sidebar-place .svgicon{fill:var(--color-text-3);}
-
-
-
 .content-detail a{color:var(--color-text-3);}
 .content-detail a:hover, .content-summary{color:var(--color-text-2);}
 .content-detail > ul > li::before, .content-detail > ol > li::marker{color:var(--color-text-3);}
@@ -134,6 +130,16 @@ border:1px solid rgb(var(--color-border-dark) / 13%); border-radius:var(--size-2
 .pagination-curr{color:var(--color-text-3) !important; background-color:transparent !important; border-color:rgb(var(--color-border-dark) / 13%) !important;}
 .pagination-arrow{background-color:var(--color-text-3); border-color:var(--color-text-3); fill:var(--bg-2);}
 a.pagination-button:hover{background-color:var(--color-text-2); border-color:var(--color-text-2); fill:var(--bg-2); color:var(--bg-2);}
+
+
+
+.topic-sidebar-place .svgicon{fill:var(--color-text-3);}
+
+
+
+.topic-list{border-color:rgb(var(--color-border-dark) / 13%);}
+.topic-link{border-color:rgb(var(--color-border-dark) / 13%); border-radius:var(--size-4);}
+.topic-link:hover{border-color:var(--color-text-3);}
 
 
 

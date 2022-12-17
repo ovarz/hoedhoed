@@ -40,6 +40,7 @@
 		  
 		  
 		  <?php require ($_SERVER['HH'].'module/content-detail.php')?>
+		  <?php require ($_SERVER['HH'].'module/topic-list.php')?>
 		  
 		  
 		  

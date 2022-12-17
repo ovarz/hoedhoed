@@ -83,6 +83,25 @@
 	
 	
     <?php require ($_SERVER['HH'].'iklan/iklan-300x250.php')?>
+    
+    
+    
+    <section aria-label="Tren HoedHoed" class="section-container topic-sidebar">
+      <div class="section-title">
+        <div class="section-title-name">Tren HoedHoed</div>
+      </div>
+      <div class="topic-sidebar-container">
+        <?php for ($i=1; $i <= 5 ; $i++) { ?>
+          <a aria-label="Link_Title" title="Link_Title" class="topic-sidebar-link" href="topik/">
+            <div class="topic-sidebar-place content_center">
+			  <?php require ($_SERVER['HH'].'img/icon/topic-number.svg')?>
+			  <b class="topic-sidebar-number">0</b>
+			</div>
+            <h2 class="topic-sidebar-title"><?php echo $random_topic[array_rand($random_topic)]; ?></h2>
+          </a>
+        <?php } ?>
+      </div>
+    </section>
 	
 	
   
@@ -125,25 +144,6 @@
       <a aria-label="Link_Title" title="Link_Title" class="internal-promo-link" href="">
 	    <img alt="img_title" class="lazyload" data-original="img/hoed-pemilu.png" width="279" height="178" />
 	  </a>
-    </section>
-    
-    
-    
-    <section aria-label="Tren HoedHoed" class="section-container topic-sidebar">
-      <div class="section-title">
-        <div class="section-title-name">Tren HoedHoed</div>
-      </div>
-      <div class="topic-sidebar-container">
-        <?php for ($i=1; $i <= 5 ; $i++) { ?>
-          <a aria-label="Link_Title" title="Link_Title" class="topic-sidebar-link" href="topik/">
-            <div class="topic-sidebar-place content_center">
-			  <?php require ($_SERVER['HH'].'img/icon/topic-number.svg')?>
-			  <b class="topic-sidebar-number">0</b>
-			</div>
-            <h2 class="topic-sidebar-title"><?php echo $random_topic[array_rand($random_topic)]; ?></h2>
-          </a>
-        <?php } ?>
-      </div>
     </section>
 	
 	

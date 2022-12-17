@@ -20,13 +20,27 @@
 	  <div class="column-left column-big">
 	    <div class="column-container">
 		  <section aria-label="Hero Image" class="hero-image">
-		    <div class="image-frame">
-			  <div class="image-frame-box flex_ori thumb-loading">
-                <img alt="img_title" data-sizes="auto" class="lazyload" 
-                  data-original="img/sample/minisample-1.jpg"
-                  data-srcset="img/sample/minisample-1.jpg 300w, img/sample/sample-1.jpg 640w"
-                />
+		    <?php $media_type='image'; require ($_SERVER['HH'].'module/media-frame.php')?>
+		  </section>
+		  
+		  
+		  
+		  <section aria-label="Content Info" class="section-container content-head">
+			<a aria-label="Link_Title" title="Link_Title" class="content-head-channel" href="<?php echo $channel; ?>/">
+			  <?php echo $random_channel[array_rand($random_channel)]; ?>
+			</a>
+		    <h1 class="content-head-title"><?php echo $random_title[array_rand($random_title)]; ?></h1>
+			<div class="content-head-misc">
+			  <div class="content-head-author">
+			    <div class="content-head-label">Penulis :</div>
+			    <a aria-label="Link_Title" title="Link_Title" class="content-head-name" href="author/"><?php echo $random_author[array_rand($random_author)]; ?></a>
 			  </div>
+			  <div class="content-head-author">
+			    <div class="content-head-label">Editor :</div>
+			    <a aria-label="Link_Title" title="Link_Title" class="content-head-name" href="author/"><?php echo $random_author[array_rand($random_author)]; ?></a>
+			  </div>
+			  <div class="content-head-date">00 September 0000</div>
+			  <a aria-label="Link_Title" title="Link_Title" class="content-head-date" href="<?php echo $channel; ?>/detail.php#comments">00 Comments</a>
 			</div>
 		  </section>
 		  
@@ -66,7 +80,7 @@
         
         
         
-          <section aria-label="Comments" class="section-container comment-box">
+          <section aria-label="Comments" class="section-container comment-box" id="comments">
             <div class="section-title">
               <div class="section-title-name">Comments</div>
             </div>

@@ -19,7 +19,7 @@
 	
 	  <div class="column-left column-big">
 	    <div class="column-container">
-		  <section aria-label="Headline" class="hero-image">
+		  <section aria-label="Hero Image" class="hero-image">
 		    <div class="image-frame">
 			  <div class="image-frame-box flex_ori thumb-loading">
                 <img alt="img_title" data-sizes="auto" class="lazyload" 
@@ -29,6 +29,17 @@
 			  </div>
 			</div>
 		  </section>
+		  
+		  
+		  
+		  <section aria-label="Iklan">
+		    <?php require ($_SERVER['HH'].'iklan/iklan-468x60.php')?>
+		    <?php require ($_SERVER['HH'].'iklan/iklan-320x100.php')?>
+		  </section>
+		  
+		  
+		  
+		  <?php require ($_SERVER['HH'].'module/content-detail.php')?>
 		  
 		  
 		  

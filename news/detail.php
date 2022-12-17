@@ -25,24 +25,7 @@
 		  
 		  
 		  
-		  <section aria-label="Content Info" class="section-container content-head">
-			<a aria-label="Link_Title" title="Link_Title" class="content-head-channel" href="<?php echo $channel; ?>/">
-			  <?php echo $random_channel[array_rand($random_channel)]; ?>
-			</a>
-		    <h1 class="content-head-title"><?php echo $random_title[array_rand($random_title)]; ?></h1>
-			<div class="content-head-misc">
-			  <div class="content-head-author">
-			    <div class="content-head-label">Penulis :</div>
-			    <a aria-label="Link_Title" title="Link_Title" class="content-head-name" href="author/"><?php echo $random_author[array_rand($random_author)]; ?></a>
-			  </div>
-			  <div class="content-head-author">
-			    <div class="content-head-label">Editor :</div>
-			    <a aria-label="Link_Title" title="Link_Title" class="content-head-name" href="author/"><?php echo $random_author[array_rand($random_author)]; ?></a>
-			  </div>
-			  <div class="content-head-date">00 September 0000</div>
-			  <a aria-label="Link_Title" title="Link_Title" class="content-head-date" href="<?php echo $channel; ?>/detail.php#comments">00 Comments</a>
-			</div>
-		  </section>
+		  <?php require ($_SERVER['HH'].'module/content-head.php')?>
 		  
 		  
 		  

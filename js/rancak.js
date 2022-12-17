@@ -79,6 +79,15 @@ function sticky_column(){
 
 
 
+function toggle_share(){
+  "use strict";
+  $('.cha-button').click(function(){
+    $('.cha-share-list').slideToggle('fast');
+  });	
+};
+
+
+
 $(document).ready(function(){
   "use strict";
   all_scroll();
@@ -86,4 +95,5 @@ $(document).ready(function(){
   open_sticky();
   close_menu();
   sticky_column();
+  toggle_share();
 });

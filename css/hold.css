@@ -8,9 +8,11 @@
   --color-text-4:#414042;
   --color-text-5:#D50000;
   --color-fb:#1877f2;
+  --color-ig:#C13584;
   --color-tw:#00acec;
   --color-wa:#2bb240;
   --color-tg:#0088cc;
+  --color-tk:#FF0050;
   --hover-opacity:0.55;
   --transition-default:all 0.34s;
   --shadow-default:0 2px 10px rgb(0 0 0 / 25%);
@@ -115,6 +117,20 @@ display:-webkit-box !important; visibility:visible !important; content-visibilit
 .internal-promo-link:hover{opacity:var(--hover-opacity);}
 
 
+
+.content-head-action{--cha-bg:#E0E0E0; border-color:rgb(var(--color-border-dark) / 13%);}
+.cha-button{background-color:var(--cha-bg); color:var(--color-text-2); fill:var(--color-text-2);}
+.cha-button:hover{background-color:var(--color-text-3); color:var(--bg-2); fill:var(--bg-2);}
+.cha-share-list{--icon-size:16px; position:absolute; z-index:1000; top:var(--size-5); right:0; background-color:var(--cha-bg);}
+.cha-share-link{display:grid; grid-gap:var(--size-2); grid-template-columns:var(--icon-size) 1fr; padding:var(--size-3) var(--size-4); border-top:1px dashed #BDBDBD;}
+.cha-share-link:first-child{border-top:0;}
+.cha-share-icon .svgicon{width:100%; height:auto;}
+.cha-share-label{justify-content:flex-start;}
+.cha-share-facebook:hover{color:var(--color-fb); fill:var(--color-fb);}
+.cha-share-instagram:hover{color:var(--color-ig); fill:var(--color-ig);}
+.cha-share-twitter:hover{color:var(--color-tw); fill:var(--color-tw);}
+.cha-share-tiktok:hover{color:var(--color-tk); fill:var(--color-tk);}
+.cha-share-whatsapp:hover{color:var(--color-wa); fill:var(--color-wa);}
 
 .content-head-channel{background-color:var(--color-text-5); color:var(--bg-2) !important;}
 .content-head-channel:hover{background-color:var(--color-text-2);}

@@ -185,7 +185,7 @@ display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-end; alig
   
   
   
-  .topbox-trending{padding-left:var(--size-4);}
+  .topbox-trending{padding-left:var(--size-2);}
   .topbox-trending-label{margin-bottom:var(--size-1);}
   .topbox-share-toggle{padding:0 var(--size-4);}
   

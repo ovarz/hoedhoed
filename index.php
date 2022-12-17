@@ -44,6 +44,13 @@
 		  
 		  
 		  
+		  <section aria-label="Iklan">
+		    <?php require ($_SERVER['HH'].'iklan/iklan-468x60.php')?>
+		    <?php require ($_SERVER['HH'].'iklan/iklan-320x100.php')?>
+		  </section>
+		  
+		  
+		  
 		  <section aria-label="Terkini" class="section-container content-list">
 		    <div class="section-title">
 			  <div class="section-title-name">Terkini</div>
@@ -77,6 +84,13 @@
 		  
 		  
 		  
+		  <section aria-label="Iklan">
+		    <?php require ($_SERVER['HH'].'iklan/iklan-468x60.php')?>
+		    <?php require ($_SERVER['HH'].'iklan/iklan-320x100.php')?>
+		  </section>
+		  
+		  
+		  
 		  <section aria-label="Jangan Lewatkan" class="section-container content-list">
 		    <div class="section-title">
 			  <div class="section-title-name">Jangan Lewatkan</div>
@@ -91,6 +105,13 @@
 				require ($_SERVER['HH'].'module/content-list.php') ?>
 			  <?php } ?>
 			</div>
+		  </section>
+		  
+		  
+		  
+		  <section aria-label="Iklan">
+		    <?php require ($_SERVER['HH'].'iklan/iklan-468x60.php')?>
+		    <?php require ($_SERVER['HH'].'iklan/iklan-320x100.php')?>
 		  </section>
 		  
 		  

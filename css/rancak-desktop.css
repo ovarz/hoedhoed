@@ -12,9 +12,9 @@ header .width-max{align-items:center;}
 
 
 
-nav{position:-webkit-sticky; position:sticky; top:0; display:flex !important;}
-nav .width-max{display:flex; justify-content:space-between;}
-nav .svgicon{width:auto; height:18px;}
+nav.rancak-popup{position:-webkit-sticky; position:sticky; top:0; display:flex !important; height:inherit !important;}
+nav.rancak-popup .width-max{display:flex; justify-content:space-between; position:relative;}
+nav.rancak-popup .svgicon{width:auto; height:18px;}
 .nav-left, .nav-right{display:flex;}
 
 menu{display:flex;}

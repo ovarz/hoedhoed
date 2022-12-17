@@ -20,6 +20,8 @@
 <link rel="preload" href="css/rancak.css?<?php echo $anticache; ?>" as="style">
 <link rel="preload" href="img/logo.webp" as="image">
 <link rel="preload" href="img/logo.png" as="image">
+<link rel="preload" href="img/logo-rodanesia.png" as="image">
+<link rel="preload" href="img/logo-watchis.png" as="image">
 <?php if($page == 'detail') { ?>
   <link rel="preload" href="https://thumb.viva.co.id/media/frontend/thumbs3/2022/08/18/62fdd2bb41c8f-uang-rupiah-kertas-emisi-2022_375_211.jpg" as="image">
   <link rel="preload" href="css/detail.css?<?php echo $anticache; ?>" as="style">

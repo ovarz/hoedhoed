@@ -9,9 +9,14 @@
           <img alt="img_title" class="lazyload" data-original="img/sample/minisample-<?php echo rand(1,20); ?>.jpg"
           data-srcset="img/sample/minisample-<?php echo rand(1,20); ?>.jpg 640w, img/sample/sample-<?php echo rand(1,20); ?>.jpg 1920w" />
         <?php } ?>
-		<?php if($channel_link == 'video') { ?>
-		<div class="video-icon content_center">
-		  <?php require ($_SERVER['HH'].'img/icon/play-circle.svg')?>
+		<?php if($channel_link == 'video' || $channel_link == 'foto') { ?>
+		<div class="media-icon content_center">
+		  <?php if($channel_link == 'video') { ?>
+		    <?php require ($_SERVER['HH'].'img/icon/play-circle.svg')?>
+		  <?php } ?>
+		  <?php if($channel_link == 'foto') { ?>
+		    <?php require ($_SERVER['HH'].'img/icon/camera.svg')?>
+		  <?php } ?>
 		</div>
         <?php } ?>
       </a>

@@ -48,3 +48,14 @@
 	</div>
   </span>
 </nav>
+
+
+
+<div id="popup-Search" class="rancak-popup popup-search content_center">
+  <span class="width-max">
+    <input class="popup-search-field" name="" type="text" autocomplete="off" placeholder="Masukkan kata kunci.....">
+    <button class="popup-search-button content_center">
+      <span>Cari</span>
+    </button>
+  </span>
+</div>

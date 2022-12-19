@@ -11,24 +11,6 @@
             <span class="menu-label"><?php echo($kanal_list['kanal_name'])?></span>
           </a>
         <?php } ?>
-		<div class="menu-more">
-          <button title="More" class="menu-link content_center desktop-only">
-            <span class="menu-label">More</span>
-          </button>
-		  <div class="menu-sub">
-		    <div class="menu-sub-box">
-              <?php 
-                foreach($subkanal_array as $subkanal_list){
-              ?>
-                <a aria-label="<?php echo($subkanal_list['kanal_name'])?>" title="<?php echo($subkanal_list['kanal_name'])?>" 
-                href="<?php echo($subkanal_list['kanal_link'])?>"
-                class="menu-link <?php if($channel == $subkanal_list['kanal_id']) { ?>menu-curr<?php } ?> content_center <?php echo($subkanal_list['custom_class'])?>">
-                  <span class="menu-label"><?php echo($subkanal_list['kanal_name'])?></span>
-                </a>
-              <?php } ?>
-			</div>
-		  </div>
-		</div>
 	  </menu>
 	</div>
     <div class="nav-right">
@@ -48,6 +30,30 @@
 	</div>
   </span>
 </nav>
+
+
+
+<link rel="stylesheet" type="text/css" href="css/tiny-slider.css?<?php echo $anticache; ?>"/>
+<script src="js/tiny-slider.js"></script>
+<script>
+  var slider = tns({
+    container:'menu',
+	disable:true,
+    responsive:{
+      1024:{
+        disable:false,
+        speed:333,
+        items:4,
+        gutter:0, 
+        edgePadding:0,
+        controls:true,
+        nav:false,
+        mouseDrag:true,
+        autoplay:false,
+      }
+    }
+  });
+</script>
 
 
 

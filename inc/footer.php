@@ -47,12 +47,6 @@
               <?php echo($kanal_list['kanal_name'])?>
             </a>
           <?php } ?>
-          <?php foreach($subkanal_array as $subkanal_list){ ?>
-            <a aria-label="<?php echo($subkanal_list['kanal_name'])?>" title="<?php echo($subkanal_list['kanal_name'])?>" class="ftm-link content_center"
-            href="<?php echo($subkanal_list['kanal_link'])?>">
-              <?php echo($subkanal_list['kanal_name'])?>
-            </a>
-          <?php } ?>
 		</div>
 	  </div>
 	  

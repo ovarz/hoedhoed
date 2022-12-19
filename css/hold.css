@@ -261,7 +261,7 @@ background:linear-gradient(to bottom, rgb(var(--color-border-light) / 100%) 0%, 
 @media screen and (min-width:1024px){
   nav{background-color:var(--color-text-3);}
   
-  .menu-link{border-color:rgb(var(--color-border-dark) / 13%) !important;}
+  .menu-link, .tns-ovh{border-color:rgb(var(--color-border-dark) / 13%) !important;}
   .menu-link:hover, .menu-more:hover, .menu-sub-box{background-color:var(--color-text-2);}
   .menu-curr:after{width:100%; height:var(--size-1);}
   .menu-sub-box .menu-link:hover{background-color:var(--color-text-4);}

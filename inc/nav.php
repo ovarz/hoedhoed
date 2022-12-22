@@ -43,7 +43,7 @@
       1024:{
         disable:false,
         speed:333,
-        items:4,
+        items:5,
         gutter:0, 
         edgePadding:0,
         controls:true,

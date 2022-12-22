@@ -116,13 +116,12 @@
 		  
 		  
 		  
-		  <div class="column-big-split column-big-split-2">
+		  <div class="column-big-split column-big-split-3">
 		    <?php 
 			  $boxkanal_array = array();
   			  $boxkanal_array[]=array('boxkanal_id'=>'news');
   			  $boxkanal_array[]=array('boxkanal_id'=>'ekonomi');
   			  $boxkanal_array[]=array('boxkanal_id'=>'budaya');
-  			  $boxkanal_array[]=array('boxkanal_id'=>'entertainment');
 			  foreach($boxkanal_array as $boxkanal_list){ 
 			?>
               <section aria-label="<?php echo($boxkanal_list['boxkanal_id'])?>" class="section-container content-list">

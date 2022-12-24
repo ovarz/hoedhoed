@@ -22,11 +22,26 @@
 	    <div class="column-container">
 		  <section aria-label="Headline" class="headline">
 		    <style><?php require ($_SERVER['HH'].'css/headline.css')?></style>
-		    <div class="headline-container">
-              <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_comment='no'; $show_description='no'; 
-			  $image_size='big'; $channel_link='news';
-              require ($_SERVER['HH'].'module/content-list.php') ?>
+		    <div class="headline-container headline-carousel">
+			  <?php for ($i=1; $i <= 5 ; $i++) { ?>
+                <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_comment='no'; $show_description='no'; 
+                $image_size='big'; $channel_link='news';
+                require ($_SERVER['HH'].'module/content-list.php') ?>
+			  <?php } ?>
 			</div>
+			<script>
+			  var slider = tns({
+				container:'.headline-carousel',
+				speed:333,
+				items:1,
+				gutter:0, 
+				edgePadding:0,
+				controls:true,
+				nav:false,
+				mouseDrag:true,
+				autoplay:true,
+			  });
+			</script>
 		  </section>
 		  
 		  
@@ -69,17 +84,30 @@
 		  
 		  
 		  
-		  <section aria-label="Foto" class="section-container content-list">
+		  <section aria-label="Foto" class="section-container headline">
 		    <div class="section-title">
 			  <div class="section-title-name">Foto</div>
 			</div>
-		    <div class="media-list-container">
-              <?php for ($i=1; $i <= 6 ; $i++) { ?>
-			    <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_comment='no'; $show_description='yes'; 
-				$image_size='default'; $channel_link='foto';
-				require ($_SERVER['HH'].'module/content-list.php') ?>
+		    <div class="headline-container foto-carousel">
+			  <?php for ($i=1; $i <= 5 ; $i++) { ?>
+                <?php $show_thumbnail='yes'; $show_author='no'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_comment='no'; $show_description='yes'; 
+                $image_size='big'; $channel_link='foto';
+                require ($_SERVER['HH'].'module/content-list.php') ?>
 			  <?php } ?>
 			</div>
+			<script>
+			  var slider = tns({
+				container:'.foto-carousel',
+				speed:333,
+				items:1,
+				gutter:0, 
+				edgePadding:0,
+				controls:true,
+				nav:false,
+				mouseDrag:true,
+				autoplay:true,
+			  });
+			</script>
 		  </section>
 		  
 		  

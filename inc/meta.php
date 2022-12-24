@@ -17,6 +17,7 @@
 <link rel="preload" href="fonts/4UaOrEtFpBISc36j.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/pxiEyp8kv8JHgFVrJJfecg.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="css/tiny-slider.css?<?php echo $anticache; ?>" as="style">
 <link rel="preload" href="css/rancak.css?<?php echo $anticache; ?>" as="style">
 <link rel="preload" href="img/logo.webp" as="image">
 <link rel="preload" href="img/logo.png" as="image">
@@ -27,12 +28,14 @@
   <link rel="preload" href="css/detail.css?<?php echo $anticache; ?>" as="style">
 <?php } ?>
 <link rel="preload" as="script" href="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+<link rel="preload" as="script" href="js/tiny-slider.js">
 
 <meta property="fb:app_id" content="221947151281666" />
 
 <style><?php require ($_SERVER['HH'].'css/font.css')?></style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery.js"><\/script>');</script>
+<script src="js/tiny-slider.js"></script>
 <script async>
 $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousewheel keyup", function(e){
   $("script").each(function(){
@@ -42,6 +45,7 @@ $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousew
 });
 </script>
 
+<link rel="stylesheet" type="text/css" href="css/tiny-slider.css?<?php echo $anticache; ?>"/>
 <link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $anticache; ?>"/>
 <link rel="stylesheet" type="text/css" href="css/rancak-desktop.css?<?php echo $anticache; ?>" media="(min-width:1024px)">
 <?php if($page == 'detail') { ?>

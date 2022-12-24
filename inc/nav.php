@@ -31,10 +31,6 @@
   </span>
 </nav>
 
-
-
-<link rel="stylesheet" type="text/css" href="css/tiny-slider.css?<?php echo $anticache; ?>"/>
-<script src="js/tiny-slider.js"></script>
 <script>
   var slider = tns({
     container:'menu',

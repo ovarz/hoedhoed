@@ -1,9 +1,15 @@
+.headline{position:relative;}
 .headline .content-box{grid-template-columns:1fr;}
 .headline .content-thumb-frame:before{padding-top:56.25%; position:relative; z-index:1000;
 background:linear-gradient(to bottom, rgb(var(--color-border-dark) / 0%) 55%, rgb(var(--color-border-dark) / 100%) 100%);}
 .headline .content-info{position:absolute; z-index:2000; bottom:0; left:0; width:100%; padding:var(--size-4);}
 .headline .content-info-title{color:var(--bg-2);}
 .headline .content-info-title:hover{color:var(--color-text-3);}
+.headline .content-info-desc{color:rgb(var(--color-border-light) / 76%);}
+
+.headline .tns-controls button{z-index:1000; width:21px;}
+.headline .tns-controls button[data-controls="prev"]{left:-4px; background-image:url("img/icon/left-square.svg");}
+.headline .tns-controls button[data-controls="next"]{right:-4px; background-image:url("img/icon/right-square.svg");}
 
 
 
@@ -19,4 +25,6 @@ background:linear-gradient(to bottom, rgb(var(--color-border-dark) / 0%) 55%, rg
 
 @media screen and (min-width:1024px){
   .headline .content-info-title h2{font-size:24px;}
+  
+  .headline .tns-controls button{width:34px;}
 }

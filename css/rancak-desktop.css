@@ -12,6 +12,7 @@ header .width-max{align-items:center;}
 
 
 
+nav.rancak-popup .tns-ovh, .menu-link{border-right:1px solid;}
 nav.rancak-popup{position:-webkit-sticky; position:sticky; top:0; display:flex !important; height:inherit !important;}
 nav.rancak-popup .width-max{display:block; position:relative;}
 nav.rancak-popup .svgicon{width:auto; height:18px;}
@@ -19,17 +20,15 @@ nav.rancak-popup .svgicon{width:auto; height:18px;}
 .nav-left{position:absolute; top:0; left:0; width:660px; display:block;}
 .nav-right{margin-right:auto; justify-content:flex-end;}
 
+nav .tns-controls button[data-controls="prev"]{left:-8px; background-image:url("../img/icon/menu-left.svg");}
+nav .tns-controls button[data-controls="next"]{right:-8px; background-image:url("../img/icon/menu-right.svg");}
+
 menu > .menu-link:first-child{border-left:1px solid;}
-.tns-ovh, .menu-link{border-right:1px solid;}
 .menu-link{height:var(--size-6); padding:0 var(--size-2) !important; border-right:1px solid; display:inline-flex !important; font-size:12px;}
 .menu-more{position:relative;}
 .menu-sub{position:absolute; left:0; top:0; min-width:144px; padding-top:var(--size-6); display:none;}
 .menu-sub-box .menu-link{justify-content:flex-start;}
 .menu-more:hover .menu-sub{display:block;}
-
-.tns-controls button{position:absolute; top:0; width:8px; height:100%; background-position:center; background-size:100% auto; background-repeat:no-repeat;}
-.tns-controls button[data-controls="prev"]{left:-8px; background-image:url("../img/icon/menu-left.svg");}
-.tns-controls button[data-controls="next"]{right:-8px; background-image:url("../img/icon/menu-right.svg");}
   
   
 

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="id">
-<base href="/hoedhoed/" />
+<html ⚡ i-amphtml-layout i-amphtml-no-boilerplate transformed="self;v=1" lang="id">
 <?php 
   $_SERVER['HH'] = $_SERVER['DOCUMENT_ROOT'] . '/hoedhoed/'; 
   $_SERVER['HH_AMP'] = $_SERVER['DOCUMENT_ROOT'] . '/hoedhoed/amp/'; 
   $anticache = date ('s'.'i'.'H'.'d'.'m'.'Y');
+  $canonical = 'hoedhoed/';
   
   $kanal_array = array();
   $kanal_array[]=array('kanal_id'=>'home','kanal_name'=>'Home','kanal_link'=>'','custom_class'=>'');

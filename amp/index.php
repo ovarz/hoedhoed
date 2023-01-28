@@ -2,6 +2,7 @@
   $page='home';
   $channel='home';
   $search_page='cari/'; 
+  $carousel='yes';
   require ('inc/base.php')
 ?>
 <?php require ($_SERVER['HH'].'inc/sample.php')?>
@@ -9,6 +10,8 @@
 <style amp-custom>
   <?php require ($_SERVER['HH_AMP'].'css/font.css')?>
   <?php require ($_SERVER['HH_AMP'].'css/rancak.css')?>
+  <?php require ($_SERVER['HH_AMP'].'css/headline.css')?>
+  <?php require ($_SERVER['HH_AMP'].'css/stories.css')?>
   <?php require ($_SERVER['HH_AMP'].'css/widget-rodanesia.css')?>
   <?php require ($_SERVER['HH_AMP'].'css/widget-infografik.css')?>
 </style>
@@ -18,6 +21,11 @@
 <?php require ($_SERVER['HH_AMP'].'inc/nav.php')?>
 <div class="rancak-container">
   <span class="width-max">
+		  
+		  
+		  
+    <?php require ($_SERVER['HH_AMP'].'module/headline.php') ?>
+    <?php require ($_SERVER['HH_AMP'].'module/widget-stories.php') ?>
 		  
 		  
 		  

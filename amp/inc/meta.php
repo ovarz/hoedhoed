@@ -19,6 +19,9 @@
 <link rel="preload" href="https://cdn.ampproject.org/v0/amp-animation-0.1.js" as="script">
 <link rel="preload" href="https://cdn.ampproject.org/v0/amp-ad-0.1.js" as="script">
 <link rel="preload" href="https://cdn.ampproject.org/v0/amp-social-share-0.1.js" as="script">
+<?php if($carousel == 'yes') { ?>
+  <link rel="preload" href="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" as="script">
+<?php } ?>
 <?php if($page == 'detail') { ?>
   <link rel="preload" href="https://cdn.ampproject.org/v0/amp-youtube-0.1.js" as="script">
   <link rel="preload" href="https://cdn.hoedhoed.com/cdn-cgi/image/upload/bank_image/medium/splash-mountain.jpg" as="image">
@@ -29,6 +32,9 @@
 <script async custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"></script>
 <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
 <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+<?php if($carousel == 'yes') { ?>
+  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+<?php } ?>
 <?php if($page == 'detail') { ?>
   <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
 <?php } ?>

@@ -1,0 +1,3 @@
+.stories-list-container{display:grid; grid-gap:var(--size-1); grid-auto-flow:column; overflow-x:auto;}
+.stories-thumb{width:130px;}
+.stories-thumb:before{padding-top:133.33%;}

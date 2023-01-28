@@ -11,8 +11,9 @@
   <?php require ($_SERVER['HH_AMP'].'css/rancak.css')?>
 </style>
 <?php require ($_SERVER['HH_AMP'].'inc/head-end.php')?>
-<?php require ($_SERVER['HH_AMP'].'inc/top-trending.php')?>
+<?php require ($_SERVER['HH_AMP'].'inc/topbox.php')?>
 <?php require ($_SERVER['HH_AMP'].'inc/header.php')?>
+<?php require ($_SERVER['HH_AMP'].'inc/menu.php')?>
 <div class="rancak-container">
   <span class="width-max">
 

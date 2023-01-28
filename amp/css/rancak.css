@@ -95,11 +95,12 @@ header .width-max{display:flex; justify-content:space-between;}
 
 
 
-menu{position:-webkit-sticky; position:sticky; z-index:calc(var(--max-zindex) - 6000); top:var(--size-6); background-color:var(--color-text-3); color:var(--bg-2);}
-menu .width-max{display:grid; grid-auto-flow:column; overflow-x:auto; padding:0 var(--size-2);}
-.menu-link{height:calc(var(--size-5) + var(--size-1)); padding:0 var(--size-3); color:var(--bg-2); text-transform:uppercase; position:relative;}
-.menu-curr{background-color:var(--color-text-5);}
-.menu-curr:after{content:''; display:block; position:absolute; bottom:0; left:0; width:100%; height:var(--size-1); background-color:rgb(var(--color-border-dark) / 21%);}
+nav{position:-webkit-sticky; position:sticky; z-index:calc(var(--max-zindex) - 6000); top:var(--size-6); background-color:var(--color-text-3); color:var(--bg-2);}
+nav .width-max{display:grid; grid-auto-flow:column; overflow-x:auto; padding:0 var(--size-2);}
+nav .width-max::-webkit-scrollbar{height:0px;}
+.nav-link{height:calc(var(--size-5) + var(--size-1)); padding:0 var(--size-3); color:var(--bg-2); text-transform:uppercase; position:relative;}
+.nav-curr{background-color:var(--color-text-5);}
+.nav-curr:after{content:''; display:block; position:absolute; bottom:0; left:0; width:100%; height:var(--size-1); background-color:rgb(var(--color-border-dark) / 21%);}
 
 
 
@@ -109,11 +110,38 @@ menu .width-max{display:grid; grid-auto-flow:column; overflow-x:auto; padding:0 
 
 
 
-footer .width-max{padding:var(--size-4); font-size:12px;}
+footer .width-max{padding:var(--size-5) var(--size-4);}
 
 .footer-top{background-color:#E5E4E2;}
+.footer-top .width-max{display:grid; grid-gap:var(--size-6);}
 
-.footer-bottom{background-color:var(--bg-3); color:var(--color-text-6);}
+.footer-top-info{display:grid; grid-gap:var(--size-3); grid-auto-rows:min-content;}
+.fti-logo-frame{width:250px; height:58.73px;}
+.fti-name{font-weight:bold; font-size:24px; color:var(--color-text-2);}
+.fti-email{display:grid; grid-gap:var(--size-2);}
+.fti-email-link{display:flex;}
+.fti-email-icon .svgicon{width:auto; height:16px;}
+.fti-email-address{margin-left:var(--size-3); font-weight:normal;}
+.fti-group{display:flex; align-items:center;}
+.fti-group-link{margin-right:var(--size-4);}
+.fti-group-link img{width:120px; height:auto;}
+.fti-rodanesia-frame{width:124.86px; height:34px;}
+.fti-watchis-frame{width:124.38px; height:34px;}
+
+.footer-top-menu .section-title{margin-bottom:var(--size-2);}
+.ftm-box{display:grid; grid-gap:var(--size-1) var(--size-4); grid-template-columns:repeat(2,1fr);}
+.ftm-link{justify-content:flex-start; padding:var(--size-2) 0; border-bottom:1px dashed rgb(var(--color-border-dark) / 13%); 
+font-weight:normal; text-transform:uppercase; font-size:12px;}
+
+.ftf-list{display:flex;}
+.ftf-link{justify-content:flex-start; margin-right:var(--size-3); width:var(--size-6); height:var(--size-6); position:relative;}
+.ftf-link img{width:100%; max-width:55px; height:auto;}
+.ftf-mail-box{display:flex;}
+.ftf-mail-field, .ftf-mail-button{padding:var(--size-2) var(--size-3);}
+.ftf-mail-label{font-size:12px; margin-top:var(--size-4); margin-bottom:var(--size-1);}
+.ftf-mail-button{background-color:var(--color-text-3); color:var(--bg-2);}
+
+.footer-bottom{background-color:var(--bg-3); color:var(--color-text-6); font-size:12px;}
 .footer-bottom-info{display:flex; flex-wrap:wrap;}
 .footer-bottom-link{color:var(--bg-2); font-weight:normal; margin-top:var(--size-2); margin-right:var(--size-4);}
 

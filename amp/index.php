@@ -13,7 +13,7 @@
 <?php require ($_SERVER['HH_AMP'].'inc/head-end.php')?>
 <?php require ($_SERVER['HH_AMP'].'inc/topbox.php')?>
 <?php require ($_SERVER['HH_AMP'].'inc/header.php')?>
-<?php require ($_SERVER['HH_AMP'].'inc/menu.php')?>
+<?php require ($_SERVER['HH_AMP'].'inc/nav.php')?>
 <div class="rancak-container">
   <span class="width-max">
 

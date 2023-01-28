@@ -1,11 +1,11 @@
-<menu>
+<nav>
   <span class="width-max">
 	<?php foreach($kanal_array as $kanal_list){ ?>
 	  <a aria-label="<?php echo($kanal_list['kanal_name'])?>" title="<?php echo($kanal_list['kanal_name'])?>"
-	  class="menu-link <?php if($channel == $kanal_list['kanal_id']) { ?>menu-curr<?php } ?> content_center <?php echo($kanal_list['custom_class'])?>" 
+	  class="nav-link <?php if($channel == $kanal_list['kanal_id']) { ?>nav-curr<?php } ?> content_center <?php echo($kanal_list['custom_class'])?>" 
 	  href="<?php echo($kanal_list['kanal_link'])?>">
-		<span class="menu-label"><?php echo($kanal_list['kanal_name'])?></span>
+		<span class="nav-label"><?php echo($kanal_list['kanal_name'])?></span>
 	  </a>
 	<?php } ?>
   </span>
-</menu>
+</nav>

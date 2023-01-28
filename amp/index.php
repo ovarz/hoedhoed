@@ -119,6 +119,20 @@
       </div>
 	  <?php $more_label='Indeks'; require ($_SERVER['HH_AMP'].'module/button-more.php')?>
     </section>
+		  
+		  
+		  
+    <section aria-label="Foto" class="section-container content-list content-card-list">
+      <div class="section-title">
+        <div class="section-title-name">Foto</div>
+      </div>
+      <div class="content-list-container">
+        <?php for ($i=1; $i <= 3 ; $i++) { ?>
+          <?php $show_thumbnail='yes'; $thumbnail_sizes='photo'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_description='no';
+          require ($_SERVER['HH_AMP'].'module/content-list.php') ?>
+        <?php } ?>
+      </div>
+    </section>
 	
 	
 

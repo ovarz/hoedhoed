@@ -4,6 +4,11 @@
 	  <a aria-label="<?php echo $random_title[array_rand($random_title)]; ?>" title="<?php echo $random_title[array_rand($random_title)]; ?>" class="content-thumb-frame flex_ori" 
 	  href="detail.php">
 		<amp-img alt="Img_Title" width="24" height="24" layout="fill" src="../img/sample/sample-<?php echo rand(1,20); ?>.jpg"></amp-img>
+		<?php if($thumbnail_sizes == 'photo') { ?>
+          <div class="content-icon content_center">
+			<?php require ($_SERVER['HH'].'img/icon/camera.svg')?>
+          </div>
+		<?php } ?>
 	  </a>
 	</div>
   <?php } ?>

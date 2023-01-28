@@ -1,4 +1,4 @@
-<section aria-label="Stories" class="section-container stories-list">
+<section aria-label="Stories" class="stories-list">
   <div class="stories-list-container">
 	<?php for ($i=1; $i <= 5 ; $i++) { ?>
 	  <a aria-label="Link_Title" title="Link_Title" class="stories-thumb flex_ori" href="infografik.php">

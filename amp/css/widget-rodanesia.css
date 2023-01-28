@@ -1,0 +1,5 @@
+.widget-rodanesia .section-title{border-bottom:0;}
+.widget-rodanesia .section-title-image{width:165.27px; height:45px;}
+.widget-rodanesia .content-list-container{background-color:var(--color-text-5); padding:var(--size-3); border-radius:var(--size-1);}
+.widget-rodanesia .content-info-title{color:var(--bg-2);}
+.widget-rodanesia .content-info-misc > *{color:rgb(var(--color-border-light) / 89%); border-color:rgb(var(--color-border-light) / 55%);}

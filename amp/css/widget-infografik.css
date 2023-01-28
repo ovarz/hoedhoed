@@ -1,0 +1,11 @@
+.widget-infografik{background-color:var(--color-text-2); padding:var(--size-4); border-radius:var(--size-1);}
+.widget-infografik .content-list-container{grid-template-columns:1fr;}
+.widget-infografik .content-box{width:100%;}
+.widget-infografik .content-thumb-frame:before{padding-top:100%;}
+.widget-infografik .section-title-name{color:var(--bg-2);}
+.widget-infografik .content-info-title{color:var(--bg-2);}
+.widget-infografik .content-info-misc > *, .widget-infografik .content-info-desc{color:rgb(var(--color-border-light) / 55%);}
+.widget-infografik .content-info-misc > *{border-color:rgb(var(--color-border-light) / 55%);}
+.widget-infografik .content-info-desc{-webkit-line-clamp:inherit;}
+.infografik-more{display:grid; grid-gap:var(--size-3); grid-template-columns:repeat(2,1fr); margin-top:var(--size-4); padding:var(--size-4) 0;
+border-top:1px solid rgb(var(--color-border-light) / 21%); border-bottom:1px solid rgb(var(--color-border-light) / 21%);}

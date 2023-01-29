@@ -35,6 +35,11 @@
             Halaman Utama
           </a>
 		</li>
+	    <li>
+          <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="detail.php">
+            Halaman Detail
+          </a>
+		</li>
       </ul>
     </section>
 	

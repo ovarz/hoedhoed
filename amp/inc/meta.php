@@ -24,7 +24,7 @@
 <?php } ?>
 <?php if($page == 'detail') { ?>
   <link rel="preload" href="https://cdn.ampproject.org/v0/amp-youtube-0.1.js" as="script">
-  <link rel="preload" href="https://cdn.hoedhoed.com/cdn-cgi/image/upload/bank_image/medium/splash-mountain.jpg" as="image">
+  <link rel="preload" href="https://cdn.hoedhoed.com/cdn-cgi/image/upload/bank_image/small/sinopsis-the-last-of-us-lengkap-dengan-daftar-pemain-dan-lin-nonton_thumb.JPG" as="image">
 <?php } ?>
 
 <script async src="https://cdn.ampproject.org/v0.js"></script>

@@ -22,6 +22,12 @@
     </div>
   <?php } ?>
   
+  <?php if($media_type == 'infografik') { ?>
+    <div class="detail-infographic-frame">
+      <amp-img alt="Img_Title" width="160" height="160" layout="responsive" src="../img/sample/sample-infographic.jpg"></amp-img>
+    </div>
+  <?php } ?>
+  
   <div class="detail-image-caption">
     Game survival The Last of Us, bertahan hidup dari infeksi jamur - Tangkap layar HBO
   </div>

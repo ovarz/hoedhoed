@@ -25,7 +25,16 @@
 		  
 		  
     <?php $headline_total='5'; $thumbnail_sizes='default'; require ($_SERVER['HH_AMP'].'module/headline.php') ?>
-    <?php require ($_SERVER['HH_AMP'].'module/widget-stories.php') ?>
+	
+	
+	
+    <section aria-label="Stories" class="stories-list stories-carousel">
+      <div class="stories-list-container">
+        <?php for ($i=1; $i <= 5 ; $i++) { ?>
+          <?php require ($_SERVER['HH_AMP'].'module/infographic-list.php') ?>
+        <?php } ?>
+      </div>
+    </section>
 		  
 		  
 		  
@@ -89,7 +98,7 @@
 		  
 		  
 		  
-    <?php require ($_SERVER['HH_AMP'].'module/widget-infografik.php') ?>
+    <?php require ($_SERVER['HH_AMP'].'module/widget-detail-infografik.php') ?>
 		  
 		  
 		  

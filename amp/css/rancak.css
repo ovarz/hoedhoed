@@ -132,6 +132,13 @@ nav .width-max::-webkit-scrollbar{height:0px;}
 
 
 
+.stories-list-container{display:grid;}
+.stories-thumb:before{padding-top:133.33%;}
+
+.stories-card .stories-list-container{grid-gap:var(--size-3); grid-template-columns:repeat(auto-fit, minmax(130px,1fr));}
+
+
+
 footer .width-max{padding:var(--size-5) var(--size-4);}
 
 .footer-top{background-color:#E5E4E2;}

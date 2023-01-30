@@ -46,6 +46,9 @@
 			<li>
 			  <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="kanal-video.php">Halaman Kanal Video</a>
 			</li>
+			<li>
+			  <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="kanal-infografik.php">Halaman Kanal Infografik</a>
+			</li>
 		  </ul>
 		</li>
 		
@@ -60,6 +63,9 @@
 			</li>
 			<li>
 			  <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="detail-video.php">Halaman Detail Video</a>
+			</li>
+			<li>
+			  <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="detail-infografik.php">Halaman Detail Infografik</a>
 			</li>
 		  </ul>
 		</li>

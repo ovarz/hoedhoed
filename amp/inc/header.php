@@ -17,7 +17,7 @@
 		  <amp-img alt="Img_Title" width="24" height="24" layout="fill" src="../img/icon-watchis.png"></amp-img>
 		</div>
 	  </a>
-	  <a aria-label="Search" title="Search" class="header-link content_center" href="search.php">
+	  <a aria-label="Search" title="Search" class="header-link content_center" href="<?php echo $search_page; ?>.php">
 		<?php require ($_SERVER['HH'].'img/icon/search.svg')?>
 	  </a>
 	</div>

@@ -1,7 +1,7 @@
 <?php 
   $page='home';
   $channel='home';
-  $search_page='cari/'; 
+  $search_page='search'; 
   $carousel='yes';
   require ('inc/base.php')
 ?>

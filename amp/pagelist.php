@@ -1,7 +1,7 @@
 <?php 
   $page='home';
   $channel='home';
-  $search_page='cari/'; 
+  $search_page='search'; 
   $carousel='yes';
   require ('inc/base.php')
 ?>
@@ -31,14 +31,27 @@
       </div>
       <ul class="pagelist-container">
 	    <li>
-          <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="index.php">
-            Halaman Utama
-          </a>
+          <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="index.php">Halaman Utama</a>
 		</li>
 	    <li>
-          <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="detail.php">
-            Halaman Detail
-          </a>
+          <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="channel.php">Halaman Kanal</a>
+		</li>
+	    <li>
+          <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="detail.php">Halaman Detail</a>
+		</li>
+	    <li>
+          <div class="pagelink">Halaman Pencarian</div>
+		  <ul>
+			<li>
+			  <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="search.php">Halaman Pencarian Default</a>
+			</li>
+			<li>
+			  <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="search-result.php">Halaman Hasil Pencarian</a>
+			</li>
+			<li>
+			  <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="search-empty.php">Halaman Pencarian Tidak Ditemukan</a>
+			</li>
+		  </ul>
 		</li>
       </ul>
     </section>

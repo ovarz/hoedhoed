@@ -1,0 +1,6 @@
+.search-box{--button-width:75px; position:relative; display:grid; grid-template-columns:1fr var(--button-width);}
+.search-field, .search-buttton{height:50px;}
+.search-field{padding:var(--size-3); width:100%; border:1px solid rgb(var(--color-border-dark) / 13%);}
+.search-button{width:var(--button-width);}
+
+.search-alert{color:var(--color-text-5); font-weight:bold;}

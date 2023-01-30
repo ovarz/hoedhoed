@@ -24,7 +24,7 @@
     <section aria-label="Artikel Info" class="section-container detail-info">
       <div class="breadcrumb">
 		<a aria-label="Home" title="Home" class="breadcrumb-link" href="index.php">Home</a>
-		<a aria-label="Game" title="Game" class="breadcrumb-link" href="kanal.php">Game</a>
+		<a aria-label="Game" title="Game" class="breadcrumb-link" href="channel.php">Game</a>
 	  </div>
 	  <h1 class="detail-info-title">3 Trik Jitu Memenangkan Game The Last of Us Part II di PS</h1>
 	  <div class="detail-info-misc">

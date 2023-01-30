@@ -1,6 +1,6 @@
 <header>
   <span class="width-max">
-    <a aria-label="Home" title="Home" class="header-link header-logo content_center" href="">
+    <a aria-label="Home" title="Home" class="header-link header-logo content_center" href="index.php">
       <div class="header-logo-frame flex_ori">
         <amp-img alt="Img_Title" width="383" height="90" layout="fill" src="../img/logo.png"></amp-img>
       </div>

@@ -21,7 +21,7 @@
 	<div class="content-info-misc">
       <?php if($show_channel != 'no') { ?>
         <a aria-label="<?php echo $random_channel[array_rand($random_channel)]; ?>" title="<?php echo $random_channel[array_rand($random_channel)]; ?>" class="content-info-channel" 
-		href="kanal.php">
+		href="channel.php">
 		  <?php if($show_channel == 'default') { ?>
             <?php echo $random_channel[array_rand($random_channel)]; ?>
 		  <?php } ?>

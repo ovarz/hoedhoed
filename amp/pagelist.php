@@ -2,7 +2,7 @@
   $page='home';
   $channel='home';
   $search_page='search'; 
-  $carousel='yes';
+  $carousel='no';
   require ('inc/base.php')
 ?>
 <?php require ($_SERVER['HH'].'inc/sample.php')?>
@@ -33,12 +33,37 @@
 	    <li>
           <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="index.php">Halaman Utama</a>
 		</li>
+		
 	    <li>
-          <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="channel.php">Halaman Kanal</a>
+          <div class="pagelink">Halaman Kanal</div>
+		  <ul>
+			<li>
+			  <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="kanal.php">Halaman Kanal Artikel</a>
+			</li>
+			<li>
+			  <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="kanal-foto.php">Halaman Kanal Foto</a>
+			</li>
+			<li>
+			  <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="kanal-video.php">Halaman Kanal Video</a>
+			</li>
+		  </ul>
 		</li>
+		
 	    <li>
-          <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="detail.php">Halaman Detail</a>
+          <div class="pagelink">Halaman Detail</div>
+		  <ul>
+			<li>
+			  <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="detail.php">Halaman Detail Artikel</a>
+			</li>
+			<li>
+			  <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="detail-foto.php">Halaman Detail Foto</a>
+			</li>
+			<li>
+			  <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="detail-video.php">Halaman Detail Video</a>
+			</li>
+		  </ul>
 		</li>
+		
 	    <li>
           <div class="pagelink">Halaman Pencarian</div>
 		  <ul>

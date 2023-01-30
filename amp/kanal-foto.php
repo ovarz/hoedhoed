@@ -1,6 +1,6 @@
 <?php 
-  $page='home';
-  $channel='home';
+  $page='channel';
+  $channel='foto';
   $search_page='search'; 
   $carousel='yes';
   require ('inc/base.php')
@@ -11,9 +11,6 @@
   <?php require ($_SERVER['HH_AMP'].'css/font.css')?>
   <?php require ($_SERVER['HH_AMP'].'css/rancak.css')?>
   <?php require ($_SERVER['HH_AMP'].'css/headline.css')?>
-  <?php require ($_SERVER['HH_AMP'].'css/stories.css')?>
-  <?php require ($_SERVER['HH_AMP'].'css/widget-rodanesia.css')?>
-  <?php require ($_SERVER['HH_AMP'].'css/widget-infografik.css')?>
 </style>
 <?php require ($_SERVER['HH_AMP'].'inc/head-end.php')?>
 <?php require ($_SERVER['HH_AMP'].'inc/topbox.php')?>
@@ -24,18 +21,17 @@
 		  
 		  
 		  
-    <?php $headline_total='5'; $thumbnail_sizes='default'; require ($_SERVER['HH_AMP'].'module/headline.php') ?>
-    <?php require ($_SERVER['HH_AMP'].'module/widget-stories.php') ?>
+    <?php $headline_total='1'; $thumbnail_sizes='photo'; require ($_SERVER['HH_AMP'].'module/headline.php') ?>
 		  
 		  
 		  
-    <section aria-label="Terkini" class="section-container content-list">
+    <section aria-label="Foto" class="section-container content-list">
       <div class="section-title">
-        <div class="section-title-name">Terkini</div>
+        <div class="section-title-name">Foto</div>
       </div>
       <div class="content-list-container">
         <?php for ($i=1; $i <= 5 ; $i++) { ?>
-          <?php $show_thumbnail='yes'; $thumbnail_sizes='default'; $show_channel='default'; $show_date='yes'; $show_time='yes'; $show_description='no';
+          <?php $show_thumbnail='yes'; $thumbnail_sizes='photo'; $show_channel='default'; $show_date='yes'; $show_time='yes'; $show_description='no';
           require ($_SERVER['HH_AMP'].'module/content-list.php') ?>
         <?php } ?>
       </div>
@@ -54,10 +50,6 @@
         <?php } ?>
       </div>
     </section>
-		  
-		  
-		  
-    <?php require ($_SERVER['HH_AMP'].'module/widget-rodanesia.php') ?>
 		  
 		  
 		  
@@ -89,10 +81,6 @@
 		  
 		  
 		  
-    <?php require ($_SERVER['HH_AMP'].'module/widget-infografik.php') ?>
-		  
-		  
-		  
     <section aria-label="Hoedball" class="section-container content-list content-card-list">
       <div class="section-title">
         <div class="section-title-name">Hoedball</div>
@@ -107,31 +95,17 @@
 		  
 		  
 		  
-    <section aria-label="Terkini" class="section-container content-list">
-      <div class="section-title">
-        <div class="section-title-name">Terkini</div>
-      </div>
-      <div class="content-list-container">
-        <?php for ($i=1; $i <= 5 ; $i++) { ?>
-          <?php $show_thumbnail='yes'; $thumbnail_sizes='default'; $show_channel='default'; $show_date='yes'; $show_time='yes'; $show_description='no';
-          require ($_SERVER['HH_AMP'].'module/content-list.php') ?>
-        <?php } ?>
-      </div>
-	  <?php $more_label='Indeks'; require ($_SERVER['HH_AMP'].'module/button-more.php')?>
-    </section>
-		  
-		  
-		  
-    <section aria-label="Foto" class="section-container content-list content-card-list">
+    <section aria-label="Foto" class="section-container content-list">
       <div class="section-title">
         <div class="section-title-name">Foto</div>
       </div>
       <div class="content-list-container">
-        <?php for ($i=1; $i <= 3 ; $i++) { ?>
-          <?php $show_thumbnail='yes'; $thumbnail_sizes='photo'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_description='no';
+        <?php for ($i=1; $i <= 5 ; $i++) { ?>
+          <?php $show_thumbnail='yes'; $thumbnail_sizes='photo'; $show_channel='default'; $show_date='yes'; $show_time='yes'; $show_description='no';
           require ($_SERVER['HH_AMP'].'module/content-list.php') ?>
         <?php } ?>
       </div>
+	  <?php $more_label='Indeks'; require ($_SERVER['HH_AMP'].'module/button-more.php')?>
     </section>
 	
 	

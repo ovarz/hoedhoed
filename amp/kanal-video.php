@@ -1,6 +1,6 @@
 <?php 
   $page='channel';
-  $channel='budaya';
+  $channel='video';
   $search_page='search'; 
   $carousel='yes';
   require ('inc/base.php')
@@ -21,17 +21,17 @@
 		  
 		  
 		  
-    <?php $headline_total='1'; require ($_SERVER['HH_AMP'].'module/headline.php') ?>
+    <?php $headline_total='1'; $thumbnail_sizes='video'; require ($_SERVER['HH_AMP'].'module/headline.php') ?>
 		  
 		  
 		  
-    <section aria-label="Budaya" class="section-container content-list">
+    <section aria-label="Video" class="section-container content-list">
       <div class="section-title">
-        <div class="section-title-name">Budaya</div>
+        <div class="section-title-name">Video</div>
       </div>
       <div class="content-list-container">
         <?php for ($i=1; $i <= 5 ; $i++) { ?>
-          <?php $show_thumbnail='yes'; $thumbnail_sizes='default'; $show_channel='default'; $show_date='yes'; $show_time='yes'; $show_description='no';
+          <?php $show_thumbnail='yes'; $thumbnail_sizes='video'; $show_channel='default'; $show_date='yes'; $show_time='yes'; $show_description='no';
           require ($_SERVER['HH_AMP'].'module/content-list.php') ?>
         <?php } ?>
       </div>
@@ -95,31 +95,17 @@
 		  
 		  
 		  
-    <section aria-label="Budaya" class="section-container content-list">
+    <section aria-label="Video" class="section-container content-list">
       <div class="section-title">
-        <div class="section-title-name">Budaya</div>
+        <div class="section-title-name">Video</div>
       </div>
       <div class="content-list-container">
         <?php for ($i=1; $i <= 5 ; $i++) { ?>
-          <?php $show_thumbnail='yes'; $thumbnail_sizes='default'; $show_channel='default'; $show_date='yes'; $show_time='yes'; $show_description='no';
+          <?php $show_thumbnail='yes'; $thumbnail_sizes='video'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_description='no';
           require ($_SERVER['HH_AMP'].'module/content-list.php') ?>
         <?php } ?>
       </div>
 	  <?php $more_label='Indeks'; require ($_SERVER['HH_AMP'].'module/button-more.php')?>
-    </section>
-		  
-		  
-		  
-    <section aria-label="Foto" class="section-container content-list content-card-list">
-      <div class="section-title">
-        <div class="section-title-name">Foto</div>
-      </div>
-      <div class="content-list-container">
-        <?php for ($i=1; $i <= 3 ; $i++) { ?>
-          <?php $show_thumbnail='yes'; $thumbnail_sizes='photo'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_description='no';
-          require ($_SERVER['HH_AMP'].'module/content-list.php') ?>
-        <?php } ?>
-      </div>
     </section>
 	
 	

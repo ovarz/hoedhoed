@@ -53,54 +53,12 @@
 		  
 		  
 		  
-    <section aria-label="Hoednews" class="section-container content-list content-card-list">
+    <section aria-label="Foto Lainnya" class="section-container content-list">
       <div class="section-title">
-        <div class="section-title-name">Hoednews</div>
+        <div class="section-title-name">Foto Lainnya</div>
       </div>
       <div class="content-list-container">
-        <?php for ($i=1; $i <= 3 ; $i++) { ?>
-          <?php $show_thumbnail='yes'; $thumbnail_sizes='default'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_description='no';
-          require ($_SERVER['HH_AMP'].'module/content-list.php') ?>
-        <?php } ?>
-      </div>
-    </section>
-		  
-		  
-		  
-    <section aria-label="Hoedsehat" class="section-container content-list content-card-list">
-      <div class="section-title">
-        <div class="section-title-name">Hoedsehat</div>
-      </div>
-      <div class="content-list-container">
-        <?php for ($i=1; $i <= 3 ; $i++) { ?>
-          <?php $show_thumbnail='yes'; $thumbnail_sizes='default'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_description='no';
-          require ($_SERVER['HH_AMP'].'module/content-list.php') ?>
-        <?php } ?>
-      </div>
-    </section>
-		  
-		  
-		  
-    <section aria-label="Hoedball" class="section-container content-list content-card-list">
-      <div class="section-title">
-        <div class="section-title-name">Hoedball</div>
-      </div>
-      <div class="content-list-container">
-        <?php for ($i=1; $i <= 3 ; $i++) { ?>
-          <?php $show_thumbnail='yes'; $thumbnail_sizes='default'; $show_channel='no'; $show_date='no'; $show_time='no'; $show_description='no';
-          require ($_SERVER['HH_AMP'].'module/content-list.php') ?>
-        <?php } ?>
-      </div>
-    </section>
-		  
-		  
-		  
-    <section aria-label="Foto" class="section-container content-list">
-      <div class="section-title">
-        <div class="section-title-name">Foto</div>
-      </div>
-      <div class="content-list-container">
-        <?php for ($i=1; $i <= 5 ; $i++) { ?>
+        <?php for ($i=1; $i <= 10 ; $i++) { ?>
           <?php $show_thumbnail='yes'; $thumbnail_sizes='photo'; $show_channel='default'; $show_date='yes'; $show_time='yes'; $show_description='no';
           require ($_SERVER['HH_AMP'].'module/content-list.php') ?>
         <?php } ?>

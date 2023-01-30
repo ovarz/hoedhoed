@@ -107,9 +107,9 @@
 		  
 		  
 		  
-    <section aria-label="Terkini" class="section-container content-list">
+    <section aria-label="Terkini Lainnya" class="section-container content-list">
       <div class="section-title">
-        <div class="section-title-name">Terkini</div>
+        <div class="section-title-name">Terkini Lainnya</div>
       </div>
       <div class="content-list-container">
         <?php for ($i=1; $i <= 5 ; $i++) { ?>

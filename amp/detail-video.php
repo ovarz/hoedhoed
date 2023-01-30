@@ -1,6 +1,6 @@
 <?php 
   $page='detail';
-  $channel='game';
+  $channel='video';
   $search_page='search'; 
   $carousel='no';
   require ('inc/base.php')
@@ -23,12 +23,12 @@
 		  
     <section aria-label="Artikel Info" class="section-container detail-info">
       <?php require ($_SERVER['HH_AMP'].'module/detail-info.php')?>
-	  <?php $media_type='default'; require ($_SERVER['HH_AMP'].'module/detail-media.php')?>
+	  <?php $media_type='video'; require ($_SERVER['HH_AMP'].'module/detail-media.php')?>
     </section>
 		  
 		  
 		  
-    <?php $content_full='yes'; require ($_SERVER['HH_AMP'].'module/detail-default.php')?>
+    <?php $content_full='no'; require ($_SERVER['HH_AMP'].'module/detail-default.php')?>
 	
 	
 

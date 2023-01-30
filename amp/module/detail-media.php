@@ -28,7 +28,9 @@
     </div>
   <?php } ?>
   
-  <div class="detail-image-caption">
-    Game survival The Last of Us, bertahan hidup dari infeksi jamur - Tangkap layar HBO
-  </div>
+  <?php if($media_type != 'video') { ?>
+    <div class="detail-image-caption">
+      Game survival The Last of Us, bertahan hidup dari infeksi jamur - Tangkap layar HBO
+    </div>
+  <?php } ?>
 </div>

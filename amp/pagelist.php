@@ -67,6 +67,9 @@
 			<li>
 			  <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="detail-infografik.php">Halaman Detail Infografik</a>
 			</li>
+			<li>
+			  <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="detail-liputan-khusus.php">Halaman Detail Liputan Khusus</a>
+			</li>
 		  </ul>
 		</li>
 		

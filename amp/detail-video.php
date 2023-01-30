@@ -29,6 +29,20 @@
 		  
 		  
     <?php $content_full='no'; require ($_SERVER['HH_AMP'].'module/detail-default.php')?>
+
+
+
+    <section aria-label="Video Terkait" class="section-container content-list">
+      <div class="section-title">
+        <div class="section-title-name">Video Terkait</div>
+      </div>
+      <div class="content-list-container">
+        <?php for ($i=1; $i <= 10 ; $i++) { ?>
+          <?php $show_thumbnail='yes'; $thumbnail_sizes='video'; $show_channel='default'; $show_date='yes'; $show_time='yes'; $show_description='no';
+          require ($_SERVER['HH_AMP'].'module/content-list.php') ?>
+        <?php } ?>
+      </div>
+    </section>
 	
 	
 

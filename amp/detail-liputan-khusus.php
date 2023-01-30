@@ -1,8 +1,8 @@
 <?php 
   $page='detail';
-  $channel='foto';
+  $channel='';
   $search_page='search'; 
-  $carousel='yes';
+  $carousel='no';
   require ('inc/base.php')
 ?>
 <?php require ($_SERVER['HH'].'inc/sample.php')?>
@@ -21,9 +21,15 @@
 		  
 		  
 		  
+    <section aria-label="Artikel Khusus" class="detail-khusus">
+	  <?php $media_type='video'; require ($_SERVER['HH_AMP'].'module/detail-media.php')?>
+    </section>
+		  
+		  
+		  
     <section aria-label="Artikel Info" class="section-container detail-info">
       <?php require ($_SERVER['HH_AMP'].'module/detail-info.php')?>
-	  <?php $media_type='photo'; require ($_SERVER['HH_AMP'].'module/detail-media.php')?>
+	  <?php $media_type='infografik'; require ($_SERVER['HH_AMP'].'module/detail-media.php')?>
     </section>
 		  
 		  
@@ -32,14 +38,27 @@
 
 
 
-    <section aria-label="Foto Terkait" class="section-container content-list">
+    <section aria-label="Artikel" class="section-container content-list">
       <div class="section-title">
-        <div class="section-title-name">Foto Terkait</div>
+        <div class="section-title-name">Artikel</div>
       </div>
       <div class="content-list-container">
-        <?php for ($i=1; $i <= 10 ; $i++) { ?>
-          <?php $show_thumbnail='yes'; $thumbnail_sizes='photo'; $show_channel='default'; $show_date='yes'; $show_time='yes'; $show_description='no';
+        <?php for ($i=1; $i <= 5 ; $i++) { ?>
+          <?php $show_thumbnail='yes'; $thumbnail_sizes='default'; $show_channel='default'; $show_date='yes'; $show_time='yes'; $show_description='no';
           require ($_SERVER['HH_AMP'].'module/content-list.php') ?>
+        <?php } ?>
+      </div>
+    </section>
+		  
+		  
+		  
+    <section aria-label="Liputan Khusus Lainnya" class="section-container stories-list stories-card">
+      <div class="section-title">
+        <div class="section-title-name">Liputan Khusus Lainnya</div>
+      </div>
+      <div class="stories-list-container">
+        <?php for ($i=1; $i <= 10 ; $i++) { ?>
+          <?php require ($_SERVER['HH_AMP'].'module/infographic-list.php') ?>
         <?php } ?>
       </div>
     </section>

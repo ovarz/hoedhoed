@@ -17,6 +17,8 @@
 .detail-media-frame amp-youtube{position:absolute; top:0; left:0; width:100%; height:100%;}
 .detail-image-caption{margin-top:var(--size-1); font-size:12px;}
 .detail-infographic-frame, .detail-infographic-frame amp-img{position:relative; width:100%; height:auto;}
+.detail-khusus{margin-top:calc(var(--size-4) * -1);}
+.detail-khusus .detail-media-frame{border-radius:0; margin-bottom:var(--size-5);}
 
 
 

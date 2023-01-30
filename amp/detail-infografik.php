@@ -29,6 +29,19 @@
 		  
 		  
     <?php $content_full='no'; require ($_SERVER['HH_AMP'].'module/detail-default.php')?>
+		  
+		  
+		  
+    <section aria-label="Infografik Lainnya" class="section-container stories-list stories-card">
+      <div class="section-title">
+        <div class="section-title-name">Infografik Lainnya</div>
+      </div>
+      <div class="stories-list-container">
+        <?php for ($i=1; $i <= 10 ; $i++) { ?>
+          <?php require ($_SERVER['HH_AMP'].'module/infographic-list.php') ?>
+        <?php } ?>
+      </div>
+    </section>
 	
 	
 

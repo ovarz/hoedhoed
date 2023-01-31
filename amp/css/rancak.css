@@ -39,7 +39,7 @@
 body, html{font-family:'Poppins',sans-serif; font-size:var(--default-fontsize); font-weight:400; letter-spacing:0.4px; font-feature-settings:'lnum' 1; 
 -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -webkit-font-smoothing:antialiased; color:var(--color-text-1);
 -moz-osx-font-smoothing:grayscale; text-rendering:optimizeSpeed;}
-html{scroll-behavior:smooth; min-height:100vh; background-color:var(--bg-3);}
+html{min-height:100vh; background-color:var(--bg-3);}
 body{background-color:var(--bg-1); overflow-x:hidden;}
 a, .btn, button{transition:var(--transition-default); cursor:pointer}
 a, button{font-weight:bold; color:var(--color-text-2); fill:var(--color-text-2);}

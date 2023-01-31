@@ -91,6 +91,10 @@
 	    <li>
           <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="tag.php">Halaman Tag / Topik</a>
 		</li>
+		
+	    <li>
+          <a aria-label="Link_Title" title="Link_Title" class="pagelink" href="indeks.php">Halaman Indeks</a>
+		</li>
       </ul>
     </section>
 	

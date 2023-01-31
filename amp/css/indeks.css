@@ -1,0 +1,10 @@
+.indeks-box{display:grid; grid-gap:var(--size-3);}
+.indeks-row{--space-icon:48px; position:relative;}
+.indeks-field{position:relative; z-index:1000; padding:var(--size-3) var(--size-4); padding-right:var(--space-icon); background-color:transparent; width:100%;
+border:1px solid rgb(var(--color-border-dark) / 13%); border-radius:var(--size-1);}
+.indeks-icon{position:absolute; top:0; right:0; height:100%; width:var(--space-icon);}
+.indeks-button{width:100%; border-radius:var(--size-1);}
+
+.CalendarDay_button *{text-align:center;}
+.CalendarDay__selected, .CalendarDay__selected:active, .CalendarDay__selected:hover, .CalendarDay__selected_start{background-color:var(--color-text-3);
+border:1px solid rgb(var(--color-border-dark) / 13%);}

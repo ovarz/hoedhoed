@@ -8,9 +8,6 @@
 <?php require ($_SERVER['HH'].'inc/sample.php')?>
 <?php require ($_SERVER['HH_AMP'].'inc/meta.php')?>
 <script async custom-element="amp-date-picker" src="https://cdn.ampproject.org/v0/amp-date-picker-0.1.js"></script>
-<script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
-<script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
-<script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
 <style amp-custom>
   <?php require ($_SERVER['HH_AMP'].'css/font.css')?>
   <?php require ($_SERVER['HH_AMP'].'css/rancak.css')?>

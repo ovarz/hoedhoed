@@ -1,0 +1,17 @@
+.profile-box{--thumb-size:130px; display:grid; grid-gap:var(--size-3);}
+.profile-thumb{width:var(--thumb-size); height:var(--thumb-size); border-radius:50%;}
+.profile-info{display:grid; grid-gap:var(--size-1);}
+.profile-name{font-weight:bold; text-transform:uppercase; font-size:var(--title-fontsize); color:var(--color-text-2);}
+
+
+
+@media screen and (orientation:portrait){
+  .profile-info *{text-align:center;}
+}
+
+
+
+@media screen and (orientation:landscape){
+  .profile-box{grid-template-columns:var(--thumb-size) 1fr;}
+  .profile-info{grid-auto-rows:min-content; align-content:center; align-items:center;}
+}
